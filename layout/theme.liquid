@@ -74,6 +74,18 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
     {{ content_for_header }}
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16749157258">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16749157258');
+</script>
+    
   </head>
 
   {%- assign feature_classes = '' -%}
