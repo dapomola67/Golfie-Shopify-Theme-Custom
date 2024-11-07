@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,16 +15,25 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": ""
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         }
       },
@@ -25,6 +43,19 @@
         "buy_buttons"
       ],
       "settings": {
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
       }
     },
     "product-content": {
@@ -32,19 +63,22 @@
       "blocks": {
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "description"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
