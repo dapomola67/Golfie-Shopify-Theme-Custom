@@ -158,6 +158,7 @@
         "item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/golf-bag-with-clubs-at-golf-course.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "About Us",
@@ -216,20 +217,6 @@
         "label": "Shop the looks"
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "blog": "",
-        "subheading": "Stay up-to-date",
-        "title": "Blog posts",
-        "articles_count": 3,
-        "stack_mobile": false,
-        "show_category": true,
-        "show_excerpt": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "image-with-text-block": {
       "type": "image-with-text-block",
       "settings": {
@@ -268,55 +255,6 @@
         "title": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "timeline": {
-      "type": "timeline",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "label": "2000",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "label": "2010",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "label": "2020",
-            "title": "Your heading",
-            "content": "<p>Write content about your store</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Timeline",
-        "text_position": "middle",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "item_background": "rgba(0,0,0,0)",
-        "item_text_color": "rgba(0,0,0,0)"
       }
     },
     "featured-product": {
@@ -375,10 +313,8 @@
     "collection-list",
     "image-with-text",
     "shop-the-look",
-    "blog-posts",
     "image-with-text-block",
     "testimonials",
-    "timeline",
     "featured-product"
   ]
 }
