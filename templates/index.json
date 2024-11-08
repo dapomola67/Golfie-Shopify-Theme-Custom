@@ -9,6 +9,28 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_3qDGEF": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify://shop_images/644fdf4a263d2c692a373cae_FWV_SkyTrak_5331_gw.jpg",
+        "subheading": "",
+        "title": "Play world-class golf from the comfort of your home.",
+        "content": "<p>Elevate your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
+        "button_text": "Shop All",
+        "button_link": "",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_right",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -34,6 +56,7 @@
       "block_order": [
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
@@ -64,7 +87,7 @@
         "content": "",
         "products_count": 8,
         "products_per_row": 4,
-        "stack_products": true,
+        "stack_products": false,
         "show_cta": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
@@ -83,7 +106,7 @@
             "title": "Golf Simulators",
             "link_text": "",
             "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
@@ -96,7 +119,7 @@
             "title": "Launch Monitors",
             "link_text": "",
             "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
@@ -109,7 +132,7 @@
             "title": "Accessories",
             "link_text": "",
             "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
@@ -135,29 +158,17 @@
         "item-1": {
           "type": "item",
           "settings": {
-            "tab_label": "Text 1",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 2",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
+            "tab_label": "",
+            "subheading": "",
+            "title": "About Us",
+            "content": "<p>At Golfie, we're dedicated to helping golfers play more, regardless of time constraints or weather. We understand the challenge of fitting course time into busy schedules and the frustration of winter breaks. That's why we offer top-quality golf simulators, projectors, and enclosures from leading brands. Our goal is to make it easier for you to practice, improve, and enjoy the game you love, right from the comfort of your own space. With Golfie, you can get those crucial reps in and keep your passion alive year-round.</p>",
+            "button_text": "Learn More",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "item-1"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -315,14 +326,10 @@
           "type": "variant_picker",
           "settings": {
             "hide_sold_out_variants": false,
-            "selector_mode": "block",
+            "selector_mode": "dropdown",
             "color_mode": "color",
             "size_chart_page": ""
           }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy-buttons": {
           "type": "buy_buttons",
@@ -338,11 +345,10 @@
       },
       "block_order": [
         "variant-picker",
-        "quantity-selector",
         "buy-buttons"
       ],
       "settings": {
-        "product": "",
+        "product": "carls-place-pro-golf-simulator-enclosure-kit-with-impact-screen",
         "subheading": "Subheading",
         "title": "Featured product",
         "show_vendor": true,
@@ -360,31 +366,10 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "image_with_text_overlay_3qDGEF": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "medium",
-        "image": "shopify://shop_images/644fdf4a263d2c692a373cae_FWV_SkyTrak_5331_gw.jpg",
-        "subheading": "",
-        "title": "Play world-class golf from the comfort of your home.",
-        "content": "<p>Elevate your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
-        "button_text": "Shop All",
-        "button_link": "",
-        "link_style": "button",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_right",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
     }
   },
   "order": [
+    "image_with_text_overlay_3qDGEF",
     "slideshow",
     "featured-collections",
     "collection-list",
@@ -394,7 +379,6 @@
     "image-with-text-block",
     "testimonials",
     "timeline",
-    "featured-product",
-    "image_with_text_overlay_3qDGEF"
+    "featured-product"
   ]
 }
