@@ -360,6 +360,28 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "image_with_text_overlay_3qDGEF": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify://shop_images/644fdf4a263d2c692a373cae_FWV_SkyTrak_5331_gw.jpg",
+        "subheading": "",
+        "title": "Play world-class golf from the comfort of your home.",
+        "content": "<p>Elevate your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
+        "button_text": "Shop All",
+        "button_link": "",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_right",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -372,6 +394,7 @@
     "image-with-text-block",
     "testimonials",
     "timeline",
-    "featured-product"
+    "featured-product",
+    "image_with_text_overlay_3qDGEF"
   ]
 }
