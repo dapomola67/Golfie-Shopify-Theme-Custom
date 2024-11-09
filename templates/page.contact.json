@@ -11,16 +11,35 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "page_width": "medium"
+      }
+    },
+    "rich_text_RedaYy": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Get in Touch",
+        "content": "<p>We're here to help you elevate your golf game, whether you're on the course or in your home simulator. Don't hesitate to reach out with any questions about our products or your order.</p><p><strong>Phone</strong>: +1 203 687 4355<br/><strong>Email</strong>: support@golfieshop.com<br/><strong>Address</strong>: 590 Orange St, New Haven Connecticut 06511, United States</p><p><br/><strong>Hours of Operation</strong>:<br/>Monday - Friday: 9:00 AM - 6:00 PM (PST)<br/>Saturday: 10:00 AM - 4:00 PM (PST)<br/>Sunday: Closed</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "contact-form": {
       "type": "contact-form",
       "settings": {
         "title": "",
-        "content": "",
+        "content": "<p>For fastest response, please use our live chat feature during business hours.<br/>We aim to respond to all inquiries within 24 business hours.</p>",
         "text_1_heading": "",
         "text_1_text": "",
         "text_2_heading": "",
@@ -34,6 +53,7 @@
   },
   "order": [
     "main",
+    "rich_text_RedaYy",
     "contact-form"
   ]
 }
