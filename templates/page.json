@@ -169,6 +169,7 @@
         "item_Uxtpgf": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Golfie-What-We-Offer-1.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "What We Offer",
