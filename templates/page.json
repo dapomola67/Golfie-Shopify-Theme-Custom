@@ -99,10 +99,11 @@
         "item_Kp3Kxn": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Golfie-Shop-What-We-Do.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "Why Choose Golfie?",
-            "content": "<ul><li>Curated Selection: We handpick only the be st golf simulators, launch monitors, and accessories.</li><li>Expert Advice: Our team of golf tech enthusiasts is always ready to help you find the perfect equipment.</li><li>Competitive Pricing: We believe in offering top-quality products at fair prices.</li><li>Excellent Support: From pre-purchase questions to after-sales service, we've got you covered.</li></ul>",
+            "content": "<ul><li>Curated Selection: We handpick only the best golf simulators, launch monitors, and accessories.</li><li>Expert Advice: Our team of golf tech enthusiasts is always ready to help you find the perfect equipment.</li><li>Competitive Pricing: We believe in offering top-quality products at fair prices.</li><li>Excellent Support: From pre-purchase questions to after-sales service, we've got you covered.</li></ul>",
             "button_text": "",
             "button_link": ""
           }
@@ -122,6 +123,44 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "testimonials_ifDmKx": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Cp8CT7": {
+          "type": "testimonial",
+          "settings": {
+            "content": "The Golfie team helped me select the best simulator setup for my space. Quick delivery, excellent support. I'll definitely be back.",
+            "author": "David K."
+          }
+        },
+        "testimonial_JTMW7j": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Excellent experience with Golfie. They went above and beyond to ensure I was satisfied. High-quality products, great advice, and fast shipping. Five stars all around!",
+            "author": "Melissa M"
+          }
+        },
+        "testimonial_byCfAW": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Great products at great prices and even better support.",
+            "author": "James P."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Cp8CT7",
+        "testimonial_JTMW7j",
+        "testimonial_byCfAW"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "image_with_text_mf79D4": {
@@ -172,36 +211,6 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
-    },
-    "testimonials_ifDmKx": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_Cp8CT7": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        },
-        "testimonial_JTMW7j": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_Cp8CT7",
-        "testimonial_JTMW7j"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -211,8 +220,8 @@
     "rich_text_Nxk4gn",
     "rich_text_4Gbqrk",
     "image_with_text_jeUwnY",
+    "testimonials_ifDmKx",
     "image_with_text_mf79D4",
-    "rich_text_LEV4nE",
-    "testimonials_ifDmKx"
+    "rich_text_LEV4nE"
   ]
 }
