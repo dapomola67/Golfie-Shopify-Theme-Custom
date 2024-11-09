@@ -35,12 +35,20 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "tinytabs_tabs_block_nDR4pi": {
+          "type": "shopify://apps/tinytabs/blocks/tabs-block/cd5da974-394e-41cb-b448-0c9a6d16a42d",
+          "settings": {
+            "css_selector": "",
+            "custom_css": ""
+          }
         }
       },
       "block_order": [
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "tinytabs_tabs_block_nDR4pi"
       ],
       "settings": {
         "show_vendor": true,
