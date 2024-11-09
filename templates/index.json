@@ -127,12 +127,51 @@
         "collection-3": {
           "type": "collection",
           "settings": {
+            "collection": "mats",
+            "subheading": "",
+            "title": "Mats",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_bTWCPx": {
+          "type": "collection",
+          "settings": {
+            "collection": "enclosures",
+            "subheading": "",
+            "title": "Enclosures",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_pCefbf": {
+          "type": "collection",
+          "settings": {
+            "collection": "nets",
+            "subheading": "",
+            "title": "Nets",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_aadhik": {
+          "type": "collection",
+          "settings": {
             "collection": "accessories",
             "subheading": "",
             "title": "Accessories",
             "link_text": "",
             "link_url": "",
-            "text_color": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
@@ -141,11 +180,14 @@
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3"
+        "collection-3",
+        "collection_bTWCPx",
+        "collection_pCefbf",
+        "collection_aadhik"
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "layout": "collage",
+        "layout": "grid",
         "subheading": "",
         "title": "Featured Categories",
         "background": "#19191b",
