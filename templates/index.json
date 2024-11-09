@@ -219,6 +219,7 @@
       "block_order": [
         "item-1"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
