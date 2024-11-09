@@ -35,10 +35,87 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "rich_text_3EeKVn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Bringing the Green to You, Wherever You Are",
+        "content": "<p>At Golfie, we're passionate about combining cutting-edge technology with the timeless sport of golf. Our mission is to help golfers of all levels improve their game, rain or shine, day or night.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_Nxk4gn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Our Story",
+        "content": "<p>Golfie was born from a simple idea: make professional-grade golf technology accessible to everyone. What started as a small operation has now grown into a trusted name in golf simulation and training equipment.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "testimonials_ifDmKx": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Cp8CT7": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "testimonial_JTMW7j": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "testimonial_pjXnC8": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Cp8CT7",
+        "testimonial_JTMW7j",
+        "testimonial_pjXnC8"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_block_HKAcx7"
+    "image_with_text_block_HKAcx7",
+    "rich_text_3EeKVn",
+    "rich_text_Nxk4gn",
+    "testimonials_ifDmKx"
   ]
 }
