@@ -155,6 +155,24 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "rich_text_LEV4nE": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Join The Golfie Family",
+        "content": "<p>Whether you’re a seasoned pro or new to the game, Golfie is here to help you build a space to practice, play, and elevate your skills year-round. Join the Golfie family and start taking your game to the next level today.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "testimonials_ifDmKx": {
       "type": "testimonials",
       "blocks": {
@@ -194,6 +212,7 @@
     "rich_text_4Gbqrk",
     "image_with_text_jeUwnY",
     "image_with_text_mf79D4",
+    "rich_text_LEV4nE",
     "testimonials_ifDmKx"
   ]
 }
