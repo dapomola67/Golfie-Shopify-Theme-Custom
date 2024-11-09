@@ -100,8 +100,8 @@
           "type": "item",
           "settings": {
             "tab_label": "",
-            "subheading": "Why Choose Golfie?",
-            "title": "Image with text",
+            "subheading": "",
+            "title": "Why Choose Golfie?",
             "content": "<ul><li>Curated Selection: We handpick only the be st golf simulators, launch monitors, and accessories.</li><li>Expert Advice: Our team of golf tech enthusiasts is always ready to help you find the perfect equipment.</li><li>Competitive Pricing: We believe in offering top-quality products at fair prices.</li><li>Excellent Support: From pre-purchase questions to after-sales service, we've got you covered.</li></ul>",
             "button_text": "",
             "button_link": ""
@@ -110,6 +110,37 @@
       },
       "block_order": [
         "item_Kp3Kxn"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_mf79D4": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_Uxtpgf": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "",
+            "title": "What We Do",
+            "content": "<p>Our journey began with a simple question: How can we make high-quality golf practice accessible to everyone, anywhere, anytime?</p><p>The answer led us to curate and offer cutting-edge golf simulation technology. We specialize in:</p><ul><li><strong>Golf Simulators:</strong> Our state-of-the-art simulators bring the course to your home or office, allowing you to play and practice year-round.</li><li><strong>Launch Monitors:</strong> We offer professional-grade launch monitors that provide precise data on your swing, helping you fine-tune your technique.</li><li><strong>Accessories:</strong> From hitting mats to projection screens, we supply everything you need to create your perfect practice space.</li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Uxtpgf"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -162,6 +193,7 @@
     "rich_text_Nxk4gn",
     "rich_text_4Gbqrk",
     "image_with_text_jeUwnY",
+    "image_with_text_mf79D4",
     "testimonials_ifDmKx"
   ]
 }
