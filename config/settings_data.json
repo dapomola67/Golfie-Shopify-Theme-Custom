@@ -11,7 +11,7 @@
   "current": {
     "button_border_radius": 8,
     "block_border_radius": "none",
-    "heading_color": "#282828",
+    "heading_color": "#19191b",
     "text_color": "#282828",
     "secondary_background": "#f5f5f5",
     "success_color": "#2e9e7b",
@@ -19,7 +19,7 @@
     "header_background": "#282828",
     "footer_background": "#282828",
     "footer_text_color": "#ffffff",
-    "primary_button_background": "#405de6",
+    "primary_button_background": "#19191b",
     "secondary_button_background": "#f3ff34",
     "secondary_button_text_color": "#282828",
     "product_on_sale_accent": "#de2a2a",
