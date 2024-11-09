@@ -93,6 +93,37 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_jeUwnY": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_Kp3Kxn": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "Why Choose Golfie?",
+            "title": "Image with text",
+            "content": "<ul><li>Curated Selection: We handpick only the be st golf simulators, launch monitors, and accessories.</li><li>Expert Advice: Our team of golf tech enthusiasts is always ready to help you find the perfect equipment.</li><li>Competitive Pricing: We believe in offering top-quality products at fair prices.</li><li>Excellent Support: From pre-purchase questions to after-sales service, we've got you covered.</li></ul>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Kp3Kxn"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "testimonials_ifDmKx": {
       "type": "testimonials",
       "blocks": {
@@ -130,6 +161,7 @@
     "rich_text_3EeKVn",
     "rich_text_Nxk4gn",
     "rich_text_4Gbqrk",
+    "image_with_text_jeUwnY",
     "testimonials_ifDmKx"
   ]
 }
