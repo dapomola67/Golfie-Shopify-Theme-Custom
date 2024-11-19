@@ -42,13 +42,18 @@
             "css_selector": "",
             "custom_css": ""
           }
+        },
+        "trust_badges_bear_widget_Ch476K": {
+          "type": "shopify://apps/trust-badges-bear/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {}
         }
       },
       "block_order": [
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "tinytabs_tabs_block_nDR4pi"
+        "tinytabs_tabs_block_nDR4pi",
+        "trust_badges_bear_widget_Ch476K"
       ],
       "settings": {
         "show_vendor": true,
