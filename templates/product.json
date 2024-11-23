@@ -36,6 +36,10 @@
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         },
+        "bss_variant_options_option_set_WyUtJ8": {
+          "type": "shopify://apps/bss-variant-options/blocks/option-set/2c446099-c349-4e73-80cd-49c9770b7807",
+          "settings": {}
+        },
         "tinytabs_tabs_block_nDR4pi": {
           "type": "shopify://apps/tinytabs/blocks/tabs-block/cd5da974-394e-41cb-b448-0c9a6d16a42d",
           "settings": {
@@ -46,19 +50,15 @@
         "trust_badges_bear_widget_Ch476K": {
           "type": "shopify://apps/trust-badges-bear/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
-        },
-        "bss_variant_options_option_set_WyUtJ8": {
-          "type": "shopify://apps/bss-variant-options/blocks/option-set/2c446099-c349-4e73-80cd-49c9770b7807",
-          "settings": {}
         }
       },
       "block_order": [
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "bss_variant_options_option_set_WyUtJ8",
         "tinytabs_tabs_block_nDR4pi",
-        "trust_badges_bear_widget_Ch476K",
-        "bss_variant_options_option_set_WyUtJ8"
+        "trust_badges_bear_widget_Ch476K"
       ],
       "settings": {
         "show_vendor": true,
