@@ -19,7 +19,7 @@
         "title": "Play world-class golf from the comfort of your home.",
         "content": "<p>Elevate your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
         "button_text": "Shop All",
-        "button_link": "",
+        "button_link": "shopify://collections/all",
         "link_style": "button",
         "background_type": "full_width",
         "text_width": "medium",
