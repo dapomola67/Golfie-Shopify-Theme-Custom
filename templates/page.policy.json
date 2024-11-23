@@ -9,35 +9,13 @@
  */
 {
   "sections": {
-    "rich_text_AVhqBn": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "About Us",
-        "content": "<p>Every golfer knows that feeling - the itch to play just one more round, to perfect that swing, to sink that crucial putt. But between busy schedules and unpredictable weather, finding time for the game we love isn't always easy.</p><p>That's where Golfie's story begins.</p><p>Born from a deep love of golf and a desire to make the sport more accessible, we believe that budget constraints or weather forecasts shouldn't dictate when you can work on your game. Our carefully curated selection of premium golf simulators, launch monitors, and accessories brings the course experience right to your doorstep.</p><p>At Golfie, we're more than just an equipment provider - we're golfers ourselves. We understand the excitement of watching your handicap drop and the satisfaction of mastering a challenging shot. This passion drives us to provide personalized guidance, helping you find the perfect setup that matches both your goals and your budget.</p><p>Welcome to Golfie - where your next great round is always just a swing away.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "show_title": true,
-        "page_width": "medium"
-      }
+      "type": "page-custom-content",
+      "settings": {}
     }
   },
   "order": [
-    "rich_text_AVhqBn",
     "main"
   ]
 }
+
