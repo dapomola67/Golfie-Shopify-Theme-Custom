@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "rich_text_AVhqBn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "About Us",
+        "content": "<p>Every golfer knows that feeling - the itch to play just one more round, to perfect that swing, to sink that crucial putt. But between busy schedules and unpredictable weather, finding time for the game we love isn't always easy.</p><p>That's where Golfie's story begins.</p><p>Born from a deep love of golf and a desire to make the sport more accessible, we believe that budget constraints or weather forecasts shouldn't dictate when you can work on your game. Our carefully curated selection of premium golf simulators, launch monitors, and accessories brings the course experience right to your doorstep.</p><p>At Golfie, we're more than just an equipment provider - we're golfers ourselves. We understand the excitement of watching your handicap drop and the satisfaction of mastering a challenging shot. This passion drives us to provide personalized guidance, helping you find the perfect setup that matches both your goals and your budget.</p><p>Welcome to Golfie - where your next great round is always just a swing away.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -16,213 +34,10 @@
         "show_title": true,
         "page_width": "medium"
       }
-    },
-    "image_with_text_overlay_kx7CUD": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify://shop_images/Golfie-About-Hero-Image.jpg",
-        "subheading": "",
-        "title": "About Us",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_3EeKVn": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "Bringing the Green to You, Wherever You Are",
-        "content": "<p>At Golfie, we're passionate about combining cutting-edge technology with the timeless sport of golf. Our mission is to help golfers of all levels improve their game, rain or shine, day or night.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "rich_text_Nxk4gn": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "Our Story",
-        "content": "<p>Golfie was born from a simple idea: make professional-grade golf technology accessible to everyone. What started as a small operation has now grown into a trusted name in golf simulation and training equipment.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "rich_text_4Gbqrk": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "Our Mission",
-        "content": "<p>To empower golfers with innovative technology, allowing them to practice, improve, and enjoy the game they love, anytime and anywhere.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_with_text_jeUwnY": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_Kp3Kxn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Golfie-Shop-What-We-Do.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Why Choose Golfie?",
-            "content": "<ul><li>Curated Selection: We handpick only the best golf simulators, launch monitors, and accessories.</li><li>Expert Advice: Our team of golf tech enthusiasts is always ready to help you find the perfect equipment.</li><li>Competitive Pricing: We believe in offering top-quality products at fair prices.</li><li>Excellent Support: From pre-purchase questions to after-sales service, we've got you covered.</li></ul>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_Kp3Kxn"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "testimonials_ifDmKx": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_Cp8CT7": {
-          "type": "testimonial",
-          "settings": {
-            "content": "The Golfie team helped me select the best simulator setup for my space. Quick delivery, excellent support. I'll definitely be back.",
-            "author": "David K."
-          }
-        },
-        "testimonial_JTMW7j": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Excellent experience with Golfie. They went above and beyond to ensure I was satisfied. High-quality products, great advice, and fast shipping. Five stars all around!",
-            "author": "Melissa M"
-          }
-        },
-        "testimonial_byCfAW": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Great products at great prices and even better support.",
-            "author": "James P."
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_Cp8CT7",
-        "testimonial_JTMW7j",
-        "testimonial_byCfAW"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_with_text_mf79D4": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_Uxtpgf": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Golfie-What-We-Offer-1.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "What We Offer",
-            "content": "<ul><li><strong>Golf Simulators:</strong> Our state-of-the-art simulators bring the course to your home or office, allowing you to play and practice year-round.</li><li><strong>Launch Monitors:</strong> We offer professional-grade launch monitors that provide precise data on your swing, helping you fine-tune your technique.</li><li><strong>Enclosures:</strong> Our premium enclosures maximize screen coverage and immersion, creating a professional, safe setup for year-round practice.</li><li><strong>Accessories:</strong> From hitting mats to projection screens, we supply everything you need to create your perfect practice space.</li></ul>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_Uxtpgf"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "rich_text_LEV4nE": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "Join The Golfie Family",
-        "content": "<p>Whether you’re a seasoned pro or new to the game, Golfie is here to help you build a space to practice, play, and elevate your skills year-round. Join the Golfie family and start taking your game to the next level today.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
-    "main",
-    "image_with_text_overlay_kx7CUD",
-    "rich_text_3EeKVn",
-    "rich_text_Nxk4gn",
-    "rich_text_4Gbqrk",
-    "image_with_text_jeUwnY",
-    "testimonials_ifDmKx",
-    "image_with_text_mf79D4",
-    "rich_text_LEV4nE"
+    "rich_text_AVhqBn",
+    "main"
   ]
 }
