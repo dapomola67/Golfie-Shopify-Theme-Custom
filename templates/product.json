@@ -50,6 +50,10 @@
         "trust_badges_bear_widget_Ch476K": {
           "type": "shopify://apps/trust-badges-bear/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
+        },
+        "description_UDFmDB": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
@@ -58,7 +62,8 @@
         "buy_buttons",
         "bss_variant_options_option_set_WyUtJ8",
         "tinytabs_tabs_block_nDR4pi",
-        "trust_badges_bear_widget_Ch476K"
+        "trust_badges_bear_widget_Ch476K",
+        "description_UDFmDB"
       ],
       "settings": {
         "show_vendor": true,
@@ -81,6 +86,7 @@
       "blocks": {
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         }
       },
