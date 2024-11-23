@@ -74,6 +74,14 @@
         "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
         "disabled": false,
         "settings": {}
+      },
+      "7553055287323118546": {
+        "type": "shopify://apps/tinytabs/blocks/tabs-embed/cd5da974-394e-41cb-b448-0c9a6d16a42d",
+        "disabled": false,
+        "settings": {
+          "css_selector": "",
+          "custom_css": ""
+        }
       }
     }
   },
