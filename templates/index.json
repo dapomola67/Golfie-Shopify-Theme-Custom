@@ -284,7 +284,7 @@
         "title": "About Us",
         "content": "<p>We're dedicated to helping golfers play more, regardless of time constraints or weather. That's why we offer top-quality golf simulators, projectors, and enclosures from leading brands. Our goal is to make it easier for you to practice, improve, and enjoy the game you love, right from the comfort of your own space. </p>",
         "button_text": "Learn More",
-        "button_link": "",
+        "button_link": "shopify://pages/about-us",
         "background_type": "full_width",
         "text_position": "left",
         "text_alignment": "left",
