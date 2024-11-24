@@ -32,7 +32,7 @@
             "show_gift_card_recipient": false,
             "atc_button_background": "rgba(0,0,0,0)",
             "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "#cdfa87",
+            "buy_now_button_background": "#9fe870",
             "buy_now_button_text_color": "#19191b"
           }
         },
