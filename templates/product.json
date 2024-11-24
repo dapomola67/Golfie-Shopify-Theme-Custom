@@ -36,6 +36,10 @@
             "buy_now_button_text_color": "#19191b"
           }
         },
+        "description_UDFmDB": {
+          "type": "description",
+          "settings": {}
+        },
         "bss_variant_options_option_set_WyUtJ8": {
           "type": "shopify://apps/bss-variant-options/blocks/option-set/2c446099-c349-4e73-80cd-49c9770b7807",
           "settings": {}
@@ -50,21 +54,16 @@
         "trust_badges_bear_widget_Ch476K": {
           "type": "shopify://apps/trust-badges-bear/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
-        },
-        "description_UDFmDB": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description_UDFmDB",
         "bss_variant_options_option_set_WyUtJ8",
         "tinytabs_tabs_block_nDR4pi",
-        "trust_badges_bear_widget_Ch476K",
-        "description_UDFmDB"
+        "trust_badges_bear_widget_Ch476K"
       ],
       "settings": {
         "show_vendor": true,
