@@ -12368,14 +12368,12 @@ shopify-payment-terms {
 
 @font-face {
   font-family: 'Phudu';
-  src: url('{{ "phudu-bold.woff2" | asset_url }}') format('woff2');
-  font-weight: normal;
+  src: url({{ "Phudu-Bold.woff2" | asset_url }}) format('woff2');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Phudu', sans-serif;
-}
-  
 }
