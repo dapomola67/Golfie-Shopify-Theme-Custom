@@ -89,8 +89,8 @@
         "type": "shopify://apps/tinytabs/blocks/tabs-embed/cd5da974-394e-41cb-b448-0c9a6d16a42d",
         "disabled": false,
         "settings": {
-          "css_selector": "",
-          "custom_css": ".product-form__description"
+          "css_selector": ".product-form__description",
+          "custom_css": ""
         }
       }
     }
