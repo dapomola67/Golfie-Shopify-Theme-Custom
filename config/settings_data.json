@@ -75,14 +75,6 @@
         "disabled": false,
         "settings": {}
       },
-      "7553055287323118546": {
-        "type": "shopify://apps/tinytabs/blocks/tabs-embed/cd5da974-394e-41cb-b448-0c9a6d16a42d",
-        "disabled": false,
-        "settings": {
-          "css_selector": "",
-          "custom_css": ""
-        }
-      },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
@@ -92,6 +84,14 @@
         "type": "shopify://apps/chatra-live-chat-chatbot/blocks/widget/3617185a-5880-4550-b1d3-81cdb9d37290",
         "disabled": false,
         "settings": {}
+      },
+      "7553055287323118546": {
+        "type": "shopify://apps/tinytabs/blocks/tabs-embed/cd5da974-394e-41cb-b448-0c9a6d16a42d",
+        "disabled": false,
+        "settings": {
+          "css_selector": "",
+          "custom_css": ""
+        }
       }
     }
   },
