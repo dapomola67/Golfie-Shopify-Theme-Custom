@@ -90,7 +90,7 @@
         "disabled": false,
         "settings": {
           "css_selector": "",
-          "custom_css": ""
+          "custom_css": ".product-form__description"
         }
       }
     }
