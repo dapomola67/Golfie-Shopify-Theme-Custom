@@ -45,7 +45,7 @@
       "settings": {
         "enable_sticky_header": true,
         "logo": "shopify://shop_images/Golfie-Logo.svg",
-        "logo_max_width": 80,
+        "logo_max_width": 65,
         "mobile_logo_max_width": 100,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "",
