@@ -53,6 +53,7 @@
         },
         "description_UDFmDB": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -86,7 +87,6 @@
       "blocks": {
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         }
       },
