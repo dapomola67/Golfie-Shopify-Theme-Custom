@@ -12368,8 +12368,8 @@ shopify-payment-terms {
 
 @font-face {
   font-family: 'Golfie';
-  src: url('../assets/Golfie-Bold.woff2') format('woff2'),
-       url('../assets/Golfie-Bold.woff') format('woff');
+  src: url('/assets/Golfie-Bold.woff2') format('woff2'),
+       url('/assets/Golfie-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
