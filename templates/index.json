@@ -294,45 +294,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "content": "The beauty of modern technology, with launch monitors and simulators, is you can practice in ways that are way more productive than we ever could growing up... It's helping us fine-tune things, even when we’re indoors.",
-            "author": "Tiger Woods"
-          }
-        },
-        "testimonial_4CBaFt": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Launch monitors give us a real insight into what’s happening at impact, and I use one to keep my distances dialed in. When you know exactly what’s happening in your swing, you have confidence, and that’s huge.",
-            "author": "Phil Mickelson"
-          }
-        },
-        "testimonial_TW6FVa": {
-          "type": "testimonial",
-          "settings": {
-            "content": "The tech side of golf has taken my game to another level. When you can measure everything precisely, you can make adjustments that were unimaginable before. It’s what helps players like me push the boundaries.",
-            "author": "Bryson DeChambeau"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial-1",
-        "testimonial_4CBaFt",
-        "testimonial_TW6FVa"
-      ],
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "faq_wRcGRC": {
       "type": "faq",
       "blocks": {
@@ -388,7 +349,6 @@
     "featured-product",
     "image-with-text",
     "image-with-text-block",
-    "testimonials",
     "faq_wRcGRC"
   ]
 }
