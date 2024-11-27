@@ -12375,7 +12375,7 @@ shopify-payment-terms {
 @font-face {
   font-family: "GolfieRegular";
   src: url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieRegular.woff2?v=1732669239") format("woff2"),
-  url("NAME-OF-FONT-FILE.woff") format("woff");
+  url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieRegular.woff?v=1732671255") format("woff");
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6,
