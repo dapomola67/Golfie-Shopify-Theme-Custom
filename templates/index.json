@@ -297,6 +297,13 @@
     "testimonials_L9y3CN": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_BGRNNR": {
+          "type": "testimonial",
+          "settings": {
+            "content": "The beauty of modern technology, with launch monitors and simulators, is you can practice in ways that are way more productive than we ever could growing up... It's helping us fine-tune things, even when we’re indoors.",
+            "author": "Tiger Woods"
+          }
+        },
         "testimonial_WnCMtg": {
           "type": "testimonial",
           "settings": {
@@ -304,17 +311,18 @@
             "author": "Bryson DeChambeau"
           }
         },
-        "testimonial_BGRNNR": {
+        "testimonial_hXEBTx": {
           "type": "testimonial",
           "settings": {
-            "content": "The beauty of modern technology, with launch monitors and simulators, is you can practice in ways that are way more productive than we ever could growing up... It's helping us fine-tune things, even when we’re indoors.",
-            "author": "Tiger Woods"
+            "content": "“Using launch monitors during practice makes a difference. You know exactly where you stand and what to work on. In today’s game, data isn’t just helpful—it’s essential.”",
+            "author": "Justin Thomas"
           }
         }
       },
       "block_order": [
+        "testimonial_BGRNNR",
         "testimonial_WnCMtg",
-        "testimonial_BGRNNR"
+        "testimonial_hXEBTx"
       ],
       "settings": {
         "reveal_on_scroll": true,
