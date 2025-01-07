@@ -275,6 +275,28 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "testimonials_L9y3CN": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_BGRNNR": {
+          "type": "testimonial",
+          "settings": {
+            "content": "The beauty of modern technology, with launch monitors and simulators, is you can practice in ways that are way more productive than we ever could growing up... It's helping us fine-tune things, even when we’re indoors.",
+            "author": "Tiger Woods"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_BGRNNR"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image-with-text-block": {
       "type": "image-with-text-block",
       "settings": {
@@ -339,44 +361,6 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "testimonials_L9y3CN": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_BGRNNR": {
-          "type": "testimonial",
-          "settings": {
-            "content": "The beauty of modern technology, with launch monitors and simulators, is you can practice in ways that are way more productive than we ever could growing up... It's helping us fine-tune things, even when we’re indoors.",
-            "author": "Tiger Woods"
-          }
-        },
-        "testimonial_WTpdJt": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        },
-        "testimonial_P7nCiz": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_BGRNNR",
-        "testimonial_WTpdJt",
-        "testimonial_P7nCiz"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
@@ -387,7 +371,7 @@
     "featured-product",
     "image-with-text",
     "image-with-text-block",
-    "faq_wRcGRC",
-    "testimonials_L9y3CN"
+    "testimonials_L9y3CN",
+    "faq_wRcGRC"
   ]
 }
