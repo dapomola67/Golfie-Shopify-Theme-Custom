@@ -12369,20 +12369,19 @@ shopify-payment-terms {
   @font-face {
   font-family: "GolfieBold";
   src: url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieBold.woff2?v=1732667835") format("woff2"),
-  url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieBold.woff?v=1732667835.woff") format("woff");
+       url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieBold.woff?v=1732667835") format("woff");
 }
 
 @font-face {
   font-family: "GolfieRegular";
   src: url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieRegular.woff2?v=1732669239") format("woff2"),
-  url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieRegular.woff?v=1732671255") format("woff");
+       url("https://cdn.shopify.com/s/files/1/0715/4751/9226/files/GolfieRegular.woff?v=1732671255") format("woff");
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, .blockquote
-h1, h2, h3, h4, h5, h6, blockquote { 
-  font-family: "GolfieBold"!important; 
+body {
+  font-family: "GolfieRegular", sans-serif;
 }
 
-.p, p, button, div, object, iframe, p, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, small, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, hgroup, menu, nav, section, summary, time, mark, audio, video { 
-  font-family: "GolfieRegular"!important; 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "GolfieBold", sans-serif;
 }
