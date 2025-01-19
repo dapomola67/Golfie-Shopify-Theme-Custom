@@ -14,7 +14,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "medium",
-        "image": "shopify://shop_images/644fdf4a263d2c692a373cae_FWV_SkyTrak_5331_gw.jpg",
+        "image": "shopify://shop_images/The_Indoor_Golf_Shop_-_SIGPRO_Golf_Simulator_Wall_Padding-Golfieshop.webp",
         "subheading": "",
         "title": "Play world-class golf from the comfort of your home.",
         "content": "<p>Elevate your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
@@ -37,7 +37,6 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/644fdf4a263d2c692a373cae_FWV_SkyTrak_5331_gw.jpg",
             "text_position": "middle_right",
             "subheading": "",
             "title": "Play world-class golf from the comfort of your home.",
