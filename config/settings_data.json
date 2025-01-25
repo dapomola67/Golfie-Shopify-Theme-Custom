@@ -10,8 +10,8 @@
 {
   "current": {
     "icon_stroke_width": 2,
-    "button_border_radius": 0,
-    "block_border_radius": "none",
+    "button_border_radius": 8,
+    "block_border_radius": "medium",
     "heading_color": "#19191b",
     "text_color": "#282828",
     "background": "#ffffff",
