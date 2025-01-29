@@ -42,6 +42,7 @@
         },
         "description_UDFmDB": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "bss_variant_options_option_set_WyUtJ8": {
@@ -76,20 +77,12 @@
     "product-content": {
       "type": "product-content",
       "blocks": {
-        "complementary_products_TeGwJq": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Featured products"
-          }
-        },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         }
       },
       "block_order": [
-        "complementary_products_TeGwJq",
         "description"
       ],
       "settings": {}
