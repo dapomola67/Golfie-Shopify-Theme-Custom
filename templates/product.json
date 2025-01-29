@@ -42,7 +42,6 @@
         },
         "description_UDFmDB": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "bss_variant_options_option_set_WyUtJ8": {
@@ -79,6 +78,7 @@
       "blocks": {
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         }
       },
