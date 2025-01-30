@@ -100,7 +100,7 @@
         "disabled": false,
         "settings": {
           "css_selector": ".product-tabs__tab-item-content",
-          "custom_css": ".tiny-tabs-content iframe { width: 100% !important; }"
+          "custom_css": ""
         }
       }
     }
