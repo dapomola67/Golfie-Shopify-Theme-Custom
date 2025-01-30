@@ -86,6 +86,7 @@
         },
         "newsletter": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "title": "join the club",
             "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
@@ -93,7 +94,6 @@
         },
         "social_media": {
           "type": "social_media",
-          "disabled": true,
           "settings": {
             "title": "Business Information",
             "content": "<p>Store Name: Mello Holdings LLC DBA Golfie</p><p>Business Address: 590 Orange Street, Connecticut CT, 06511</p>"
