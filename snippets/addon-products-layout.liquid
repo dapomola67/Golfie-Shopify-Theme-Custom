@@ -326,7 +326,8 @@
         {% assign addon_product = all_products[addon_with_name.attached_product] %}
         {% assign product_counter = product_counter | plus: 1 %}
         <div class="addonproduct-info">
-          {% if addon_product.selected_or_first_available_variant.compare_at_price %}
+          {% if addon_product.selected_or_first_available_variant.compare_at_price
+            > addon_product.selected_or_first_available_variant.price %}
             <input
               data-price="{{ addon_product.selected_or_first_available_variant.price }}"
               data-com-price="{{ addon_product.selected_or_first_available_variant.compare_at_price }}"
