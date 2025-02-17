@@ -172,6 +172,19 @@
 
   {%- render 'product-form', product: product, update_url: update_url -%}
 
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'addon_products' %}
+          {% assign product_addons = product.metafields.custom.addons %}
+          {% if product_addons %}
+            <div class="product-form__option-info">
+              <span class="product-form__option-name">{{ block.settings.addon_heading }}</span>
+            </div>
+              {% render 'addon-products-layout', metafield_products: product_addons.value %}
+          {% endif %}
+    {% endcase %}
+  {% endfor %}
+
   {%- assign help_page = section.settings.help_page -%}
 
   {%- if section.settings.show_share_buttons or help_page != blank -%}
@@ -368,16 +381,4 @@
       </div>
     </popover-content>
   {%- endif -%}
-  {% for block in section.blocks %}
-    {% case block.type %}
-      {% when 'addon_products' %}
-          {% assign product_addons = product.metafields.custom.addons %}
-          {% if product_addons %}
-            <div class="product-form__option-info">
-              <span class="product-form__option-name">{{ block.settings.addon_heading }}</span>
-            </div>
-              {% render 'addon-products-layout', metafield_products: product_addons.value %}
-          {% endif %}
-    {% endcase %}
-  {% endfor %}
 </div>
