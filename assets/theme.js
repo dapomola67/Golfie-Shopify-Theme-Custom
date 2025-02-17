@@ -21,7 +21,7 @@ const updateWithAddonPrices = () => {
             selectBox.setAttribute('disabled','disabled');
         }
         
-        if (comPrice) {
+        if (mainComparePrice) {
           mainComparePrice += parseFloat(checkbox.getAttribute('data-price'));
         }
       } else {
