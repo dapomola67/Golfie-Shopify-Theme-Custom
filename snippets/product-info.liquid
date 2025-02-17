@@ -170,8 +170,6 @@
     {%- endif -%}
   </product-meta>
 
-  {%- render 'product-form', product: product, update_url: update_url -%}
-
   {% for block in section.blocks %}
     {% case block.type %}
       {% when 'addon_products' %}
@@ -184,6 +182,9 @@
           {% endif %}
     {% endcase %}
   {% endfor %}
+  
+  {%- render 'product-form', product: product, update_url: update_url -%}
+
 
   {%- assign help_page = section.settings.help_page -%}
 
