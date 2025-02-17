@@ -5,6 +5,49 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 
+//Product Addon Price Updates Function
+const updateWithAddonPrices = () => {
+    const mainPriceElement = document.querySelector('.product-price');
+    const mainComparePriceElement = document.querySelector('.compare-price');
+    let mainPrice = parseFloat(mainPriceElement.getAttribute('data-price'));
+    if(mainComparePriceElement) {
+      let mainComparePrice = parseFloat(mainComparePriceElement.getAttribute('data-compare'));
+    }
+    document.querySelectorAll('.addonProduct-listing input[type="checkbox"]').forEach((checkbox) => {
+      if (checkbox.checked) {
+        mainPrice += parseFloat(checkbox.getAttribute('data-price'));
+        const selectBox =  checkbox.closest('.addonproduct-info').querySelector('select');
+        if(selectBox?.length > 0) {
+            selectBox.setAttribute('disabled','disabled');
+        }
+        
+        const comPrice = checkbox.getAttribute('data-com-price');
+        if (comPrice) {
+          mainComparePrice += parseFloat(comPrice);
+        }
+      } else {
+          const selectBox =  checkbox.closest('.addonproduct-info').querySelector('select');
+          if(selectBox?.length > 0) {
+            selectBox.removeAttribute('disabled');
+        }
+      }
+    });
+    mainPriceElement.textContent = formatMoney(mainPrice);
+  const stickyAddToCart = document.querySelector('.product-sticky-form__price');
+  if(stickyAddToCart) {
+    stickyAddToCart.textContent = formatMoney(mainPrice);
+  }
+    if (mainComparePriceElement) {
+      mainComparePriceElement.textContent = formatMoney(mainComparePrice);
+        if (mainComparePriceElement.textContent == '$0.00') {
+            mainComparePriceElement.style.display = "none";
+      } else {
+          mainComparePriceElement.style.display = "block";
+      }
+    }
+
+};
+
 // node_modules/ftdomdelegate/main.js
 function Delegate(root) {
   this.listenerMap = [{}, {}];
@@ -5433,13 +5476,42 @@ var ProductForm = class extends HTMLFormElement {
     productForm.delete("option1");
     productForm.delete("option2");
     productForm.delete("option3");
-    const response = await fetch(`${window.themeVariables.routes.cartAddUrl}.js`, {
-      body: productForm,
-      method: "POST",
-      headers: {
-        "X-Requested-With": "XMLHttpRequest"
-        // This is needed for the endpoint to properly return 422
+    let cartObject = null;
+    let headers = null;
+    const isAddonsPresent = document.querySelector('.addOnProduct-section');
+    if(isAddonsPresent) {
+        cartObject = {items: []};
+        const addedProduct = {};
+        productForm.forEach((value, key) => {
+          if(key === "quantity" || key === 'id') {
+              addedProduct[key] = Number(value);
+          }
+        });
+      cartObject.items.push(addedProduct);
+       document.querySelectorAll('.addonProduct-listing input[type="checkbox"]').forEach((checkbox) => {
+      if (checkbox.checked) {
+        cartObject.items.push({
+          id: Number(checkbox.value),
+          quantity: 1,
+        })
+      } 
+    });
+      cartObject = JSON.stringify(cartObject);
+      headers =  {
+        "X-Requested-With": "XMLHttpRequest",
+        'Content-Type': 'application/json'
       }
+    } else {
+      cartObject = productForm;
+      headers = {
+         "X-Requested-With": "XMLHttpRequest",
+      }
+    }
+   
+    const response = await fetch(`${window.themeVariables.routes.cartAddUrl}.js`, {
+      body: cartObject,
+      method: "POST",
+      headers: headers,
     });
     submitButtons.forEach((submitButton) => {
       submitButton.removeAttribute("disabled");
@@ -5709,10 +5781,16 @@ var ProductMeta = class extends HTMLElement {
     } else {
       productPrices.innerHTML = "";
       if (variant["compare_at_price"] > variant["price"]) {
-        productPrices.innerHTML += `<span class="price price--highlight ${this.priceClass}"><span class="visually-hidden">${window.themeVariables.strings.productSalePrice}</span>${formatMoney(variant["price"], currencyFormat)}</span>`;
+        productPrices.innerHTML += `<span class="price price--highlight ${this.priceClass} compare-price" data-compare="${variant["compare_at_price"]}"><span class="visually-hidden">${window.themeVariables.strings.productSalePrice}</span>${formatMoney(variant["price"], currencyFormat)}</span>`;
         productPrices.innerHTML += `<span class="price price--compare"><span class="visually-hidden">${window.themeVariables.strings.productRegularPrice}</span>${formatMoney(variant["compare_at_price"], currencyFormat)}</span>`;
       } else {
-        productPrices.innerHTML += `<span class="price ${this.priceClass}"><span class="visually-hidden">${window.themeVariables.strings.productSalePrice}</span>${formatMoney(variant["price"], currencyFormat)}</span>`;
+        productPrices.innerHTML += `<span class="price ${this.priceClass} product-price" data-price="${variant["price"]}"><span class="visually-hidden">${window.themeVariables.strings.productSalePrice}</span>${formatMoney(variant["price"], currencyFormat)}</span>`;
+      }
+
+      //updating the price according to addons selection
+      const isAddonsPresent = document.querySelector('.addOnProduct-section');
+      if(isAddonsPresent) {
+        updateWithAddonPrices();
       }
       if (variant["unit_price_measurement"]) {
         let referenceValue = "";
@@ -6636,8 +6714,12 @@ var ProductStickyForm = class extends HTMLElement {
   connectedCallback() {
     document.getElementById(this.getAttribute("form-id"))?.addEventListener("variant:changed", this._onVariantChanged.bind(this));
     this.imageElement = this.querySelector(".product-sticky-form__image");
-    this.priceElement = this.querySelector(".product-sticky-form__price");
-    this.unitPriceElement = this.querySelector(".product-sticky-form__unit-price");
+    const isAddonsPresent = document.querySelector('.addOnProduct-section');
+    if(!isAddonsPresent) {
+      this.priceElement = this.querySelector(".product-sticky-form__price");
+      this.unitPriceElement = this.querySelector(".product-sticky-form__unit-price");
+    }
+    
     this._setupVisibilityObservers();
   }
   disconnectedCallback() {
@@ -6802,3 +6884,97 @@ focus-trap/dist/focus-trap.esm.js:
   * @license MIT, https://github.com/focus-trap/focus-trap/blob/master/LICENSE
   *)
 */
+
+// Custom Code for Addons Product 
+
+const updateProductPrice = (event) => {
+  const selectedOption = event.target.options[event.target.selectedIndex];
+  const variantPrice = selectedOption.getAttribute('data-variant-price');
+  const variantPriceWithMoney = selectedOption.getAttribute('data-varaint-price-with-money');
+  const productContainer = event.target.closest('.addonproduct-info');
+  if (productContainer) {
+        const priceElement = productContainer.querySelector('.addOnProduct-price');
+        const mainInput = productContainer.querySelector('input');
+        if (priceElement && mainInput) {
+            priceElement.innerHTML = variantPriceWithMoney;
+            mainInput.setAttribute('data-price', variantPrice);
+            mainInput.value = event.target.value;
+        }
+    }
+}
+
+
+function PriceMetafiledAdd() {
+
+  const mainPriceElement = document.querySelector('.product-price');
+  const mainComparePriceElement = document.querySelector('.compare-price');
+  
+  document.addEventListener('change', function (event) {
+    if (event.target.matches('.addonProduct-listing input[type="checkbox"]')) {
+      updateWithAddonPrices(event);
+    }
+  });
+
+   document.addEventListener('change', function (event) {
+    if (event.target.matches('.addon-product-variants')) {
+      updateProductPrice(event);
+    }
+  });
+  
+}
+PriceMetafiledAdd();
+
+function setupClickHandlers() {
+  document.querySelectorAll(".Click-here").forEach(function(element) {
+    element.addEventListener('click', function(event) {
+      event.stopPropagation();
+      event.preventDefault();
+      handleElementClick(this);
+    });
+  });
+}
+
+function handleElementClick(element) {
+  var dataModalId = element.getAttribute('data-id');
+
+  document.querySelectorAll('.custom-model-main').forEach(function(element) {
+    if(element.getAttribute('modal-id') === dataModalId) {
+      element.classList.add('model-open');
+      document.body.classList.add('overflowHidden');
+    }
+   })
+}
+setupClickHandlers();
+
+function initializeModalClose() {
+  document.querySelectorAll(".close-btn, .bg-overlay").forEach(function(element) {
+    element.addEventListener('click', function() {
+      document.querySelectorAll(".custom-model-main").forEach(function(closeElem) {
+        closeElem.classList.remove('model-open');
+      });
+      document.body.classList.remove('overflowHidden');
+    });
+  });
+}
+
+initializeModalClose();
+
+function addCloseButtonClickListeners() {
+  document.querySelectorAll(".variants-close-btn, .variants-bg-overlay").forEach(function(element) {
+    element.addEventListener('click', function() {
+      if(document.querySelector(".variants-custom-model-how")){
+      document.querySelector(".variants-custom-model-how").classList.remove('model-open');
+      }
+      if(document.querySelector(".variants-size-model-main")){
+      document.querySelector(".variants-size-model-main").classList.remove('model-open');
+      }
+      if(document.querySelector(".variants-size-model-main-choose")){
+      document.querySelector(".variants-size-model-main-choose").classList.remove('model-open');
+      }
+      if(document.querySelector(".variants-size-model-main-choose-forth")){
+      document.querySelector(".variants-size-model-main-choose-forth").classList.remove('model-open');
+      }
+      document.body.classList.remove('overflowHidden');
+    });
+  });
+}
