@@ -29,7 +29,7 @@
         {%- if product.selected_or_first_available_variant.compare_at_price
             > product.selected_or_first_available_variant.price
         -%}
-          <span class="price price--highlight price--large">
+          <span class="price price--highlight price--large product-price" data-price={{ product.selected_or_first_available_variant.price }}>
             <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
 
             {%- if settings.currency_code_enabled -%}
