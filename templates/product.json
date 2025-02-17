@@ -36,6 +36,12 @@
             "buy_now_button_text_color": "#19191b"
           }
         },
+        "addon_products_K4WdD4": {
+          "type": "addon_products",
+          "settings": {
+            "addon_heading": "Accessories"
+          }
+        },
         "trust_badges_bear_widget_Ch476K": {
           "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
           "settings": {}
@@ -50,6 +56,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "addon_products_K4WdD4",
         "trust_badges_bear_widget_Ch476K",
         "description_UDFmDB"
       ],
