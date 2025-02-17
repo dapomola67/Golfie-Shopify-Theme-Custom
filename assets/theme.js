@@ -10,8 +10,9 @@ const updateWithAddonPrices = () => {
     const mainPriceElement = document.querySelector('.product-price');
     const mainComparePriceElement = document.querySelector('.compare-price');
     let mainPrice = parseFloat(mainPriceElement.getAttribute('data-price'));
+    let mainComparePrice = null;
     if(mainComparePriceElement) {
-      let mainComparePrice = parseFloat(mainComparePriceElement.getAttribute('data-compare'));
+      mainComparePrice = parseFloat(mainComparePriceElement.getAttribute('data-compare'));
     }
     document.querySelectorAll('.addonProduct-listing input[type="checkbox"]').forEach((checkbox) => {
       if (checkbox.checked) {
