@@ -81,8 +81,8 @@
   </section>
 {%- else -%}
   {%- comment -%}
-  The quick shop HTML being very different, we render it here. On mobile and tablet/desktop, the product renders also
-  quite differently, as it is in a drawer on tablet/desktop, and a popover on mobile.
+    The quick shop HTML being very different, we render it here. On mobile and tablet/desktop, the product renders also
+    quite differently, as it is in a drawer on tablet/desktop, and a popover on mobile.
   {%- endcomment -%}
 
   {%- capture quick_buy_product_info -%}
@@ -123,7 +123,7 @@
                   {%- endif -%}
                 </span>
 
-                <span class="price price--compare">
+                <span class="price price--compare compare-price" data-compare={{ product.selected_or_first_available_variant.compare_at_price }}>
                   <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
 
                   {%- if settings.currency_code_enabled -%}
@@ -133,7 +133,7 @@
                   {%- endif -%}
                 </span>
               {%- else -%}
-                <span class="price">
+                <span class="price product-price" data-price={{ product.selected_or_first_available_variant.price }}>
                   <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
 
                   {%- if settings.currency_code_enabled -%}
@@ -192,7 +192,12 @@
       <header class="drawer__header">
         <p class="drawer__title heading h6">{{ 'product.form.choose_options' | t }}</p>
 
-        <button type="button" class="drawer__close-button tap-area" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+        <button
+          type="button"
+          class="drawer__close-button tap-area"
+          data-action="close"
+          title="{{ 'general.accessibility.close' | t | escape }}"
+        >
           {%- render 'icon' with 'close' -%}
         </button>
       </header>
@@ -200,6 +205,18 @@
       <div class="drawer__content">
         {{- quick_buy_product_info -}}
         {%- render 'product-form', product: product -%}
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'addon_products' %}
+                {% assign product_addons = product.metafields.custom.addons %}
+                {% if product_addons %}
+                  <div class="product-form__option-info">
+                    <span class="product-form__option-name">{{ block.settings.addon_heading }}</span>
+                  </div>
+                    {% render 'addon-products-layout', metafield_products: product_addons.value %}
+                {% endif %}
+          {% endcase %}
+        {% endfor %}
       </div>
     </quick-buy-drawer>
   {%- elsif template.suffix == 'quick-buy-popover' -%}
@@ -209,7 +226,12 @@
       <header class="popover__header">
         {{- quick_buy_product_info -}}
 
-        <button type="button" class="popover__close-button tap-area tap-area--large" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+        <button
+          type="button"
+          class="popover__close-button tap-area tap-area--large"
+          data-action="close"
+          title="{{ 'general.accessibility.close' | t | escape }}"
+        >
           {%- render 'icon' with 'close' -%}
         </button>
       </header>
@@ -336,6 +358,18 @@
           "id": "buy_now_button_text_color",
           "label": "Buy now color",
           "default": "rgba(0,0,0,0)"
+        }
+      ]
+    },
+     {
+      "type": "addon_products",
+      "name": "Additional Products",
+      "settings": [
+        {
+          "type":"text",
+          "id": "addon_heading",
+          "label": "Heading",
+          "default": "Accessories"
         }
       ]
     },
