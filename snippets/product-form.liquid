@@ -192,6 +192,7 @@
           {%- endcase -%}
         {%- endif -%}
 
+
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
       TEXT
@@ -363,6 +364,20 @@
             </script>
           </product-inventory>
         {%- endif -%}
+
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      PRODUCT ADDONS
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+       {% when 'addon_products' %}
+          {% assign product_addons = product.metafields.custom.addons %}
+          {% if product_addons %}
+            <div class="product-form__option-info">
+              <span class="product-form__option-name">{{ block.settings.addon_heading }}</span>
+            </div>
+              {% render 'addon-products-layout', metafield_products: product_addons.value %}
+          {% endif %}
 
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
