@@ -20,11 +20,6 @@ const updateWithAddonPrices = () => {
         if(selectBox?.length > 0) {
             selectBox.setAttribute('disabled','disabled');
         }
-        
-        const comPrice = checkbox.getAttribute('data-com-price');
-        if (comPrice) {
-          mainComparePrice += parseFloat(comPrice);
-        }
       } else {
           const selectBox =  checkbox.closest('.addonproduct-info').querySelector('select');
           if(selectBox?.length > 0) {
