@@ -1,0 +1,422 @@
+<style>
+        .addOnProduct-title img {
+          width: 40px;
+          height: 40px;
+        }
+        .addonproduct-info {
+          position: relative;
+        }
+        label.ProductListingInfo {
+          margin-right: 0;
+          margin-left: 0;
+          padding: 5px 18px 5px 45px;
+          display: block;
+          border: 1px solid rgb(var(--border-color));
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          line-height: 1.4;
+          text-align: left;
+          max-height: 64px;
+        }
+        .addOnProduct-title {
+          font-size: 15px;
+          padding-right: 5px;
+          display: flex;
+          align-items: center;
+          gap: 15px;
+        }
+        .Click-here {
+          white-space: nowrap;
+          font-size: 10px;
+          font-weight: 400;
+          color: #264d37;
+          text-decoration: underline;
+          line-height: 18px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          max-width: 100px;
+        }
+        .addOnProduct-price {
+          font-size: 15px;
+          text-align: right;
+        }
+        .addonproduct-info {
+          position: relative;
+          margin-bottom: 10px;
+        }
+        label.ProductListingInfo.block-swatch__item {
+          z-index: 1;
+        }
+      .block-swatch__item {
+        border: 1px solid rgb(var(--border-color));
+        border-radius: var(--button-border-radius);
+        background: rgb(var(--background));
+        color: rgb(var(--text-color));
+        text-align: center;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        min-width: 56px;
+        margin: 5px;
+        padding: 11px 18px 13px;
+        transition: background .2s;
+        display: block;
+        position: relative;
+    }
+        .addon-product-popup-title h3 {
+          font-size: 18px;
+          font-weight: 600;
+          margin-bottom: 0;
+          padding-top: 4px;
+        }
+        .addon-product-popup-info {
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 70px;
+        }
+        label.ProductListingInfo .custom_checkbox {
+          position: absolute;
+          left: 7px;
+          top: 0;
+          bottom: 0;
+          border: 1px solid #ddd;
+          border-radius: 50%;
+          aspect-ratio: 1;
+          height: 22px;
+          margin: auto 2px;
+        }
+        .product-metaTitle  {
+          font-size: 12px;
+        }
+        .product-metaTitle span {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          -webkit-line-clamp: 1;
+          font-size: 15px;
+        }
+
+        input:checked + label.ProductListingInfo .custom_checkbox {
+          background: #264d37;
+          border-color: #264d37;
+      }
+
+        .addonproduct-info input {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 10px;
+          width: 18px;
+          height: 18px;
+          border-radius: 100%;
+          accent-color: #264d37;
+          z-index: 9;
+          display: none;
+      }
+
+        label.ProductListingInfo .custom_checkbox:before {
+          content: "";
+          position: absolute;
+          height: 2px;
+          background: #fff;
+          width: 9px;
+          top: 10px;
+          transform: rotate(-40deg);
+          left: 7px;
+      }
+
+        label.ProductListingInfo .custom_checkbox:after {
+          content: "";
+          position: absolute;
+          height: 2px;
+          background: #fff;
+          width: 4px;
+          top: 11px;
+          transform: rotate(49deg);
+          left: 5px;
+      }
+      label.ProductListingInfo.block-swatch__item:after {
+        z-index: -1;
+    }
+      .block-swatch__radio:checked+.block-swatch__item:after {
+        opacity: 1;
+        transform: scale(1);
+    }
+      .block-swatch__item:after {
+        content: "";
+        box-shadow: 0 0 0 1px rgb(var(--text-color)) inset, 0 0 0 1px rgb(var(--text-color));
+        border-radius: var(--button-border-radius);
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity .2s, transform .2s;
+        position: absolute;
+        top: 0;
+        transform: scale(.9);
+    }
+           .fixed-btn a {
+            background-color: #2A4C3A !important;
+            background-image: none !important;
+          }
+          .custom-model-main {
+          text-align: center;
+          overflow: hidden;
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          -webkit-overflow-scrolling: touch;
+          outline: 0;
+          opacity: 0;
+          -webkit-transition: opacity 0.15s linear, z-index 0.15;
+          -o-transition: opacity 0.15s linear, z-index 0.15;
+          transition: opacity 0.15s linear, z-index 0.15;
+          z-index: -1;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .custom-model-inner {
+          -webkit-transform: translate(0, -25%);
+          -ms-transform: translate(0, -25%);
+          transform: translate(0, -25%);
+          -webkit-transition: -webkit-transform 0.3s ease-out;
+          -o-transition: -o-transform 0.3s ease-out;
+          transition: -webkit-transform 0.3s ease-out;
+          -o-transition: transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+          transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+          display: inline-block;
+          vertical-align: middle;
+          width: 600px;
+          margin: 30px auto;
+          max-width: 97%;
+        }
+        .custom-model-wrap {
+          display: block;
+          width: 100%;
+          position: relative;
+          background-color: #fff;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 6px;
+          -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+          background-clip: padding-box;
+          outline: 0;
+          text-align: left;
+          box-sizing: border-box;
+          max-height: calc(100vh - 70px);
+          overflow-y: auto;
+        }
+        .pop-up-content-wrap {
+          padding: 15px;
+          margin-top: 80px;
+        }
+        .addon-product-popup-title {
+            border-bottom: 1px solid #dfdfdf;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            width: calc(100% - 16px);
+            background: white;
+        }
+        }
+        .addon-product-popup-title h3 {
+          margin: 0;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .close-btn {
+          cursor: pointer;
+          font-size: 30px;
+          line-height: 1;
+        }
+        .addon-product-popup-info img {
+          width: 100%;
+          max-width: 400px;
+          display: block;
+          margin-bottom: 20px;
+        }
+        .rte p {
+          margin: 0 0 15px;
+          font-size: 15px;
+          line-height: 1.5;
+        }
+        .bg-overlay {
+          background: rgba(0, 0, 0, 0);
+          height: 100vh;
+          width: 100%;
+          position: fixed;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 0;
+          transition: background 0.15s linear;
+        }
+      @media screen and (min-width: 800px) {
+        .custom-model-main:before {
+            content: "";
+            display: inline-block;
+            height: auto;
+            vertical-align: middle;
+            margin-right: -0px;
+            height: 100%;
+        }
+    }
+      .model-open {
+        z-index: 99999;
+        opacity: 1;
+        overflow: hidden;
+    }
+      .model-open .custom-model-inner {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+        position: relative;
+        z-index: 999;
+    }
+     .model-open .bg-overlay {
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 99;
+    }
+    .button--fullWidth {
+      width: 100%;
+      margin-block: 8px;
+    }
+    .image-center {
+      display: flex;
+      justify-content: center;
+    }
+    .fixed-btn {
+      position: fixed;
+      bottom: 0;
+      background-color: white;
+      width: calc(100% - 2px);
+      border-radius: 7px;
+      padding-inline: 16px;
+      left: 1px;
+  }
+  @media(max-width: 492px) {
+    .addon-product-variants {
+      width: 100%;
+    }
+    .addOnProduct-price,.product-metaTitle span {
+      font-size: 13px;
+    }
+  }
+  @media(max-width: 767px) {
+    .addon-product-popup-title h3 {
+      font-size: 16px;
+    }
+  }
+</style>
+<div id="shopify-section-addon-product" class="shopify-section">
+  <div class="addOnProduct-section">
+    <div class="addonProduct-listing">
+      {% assign product_counter = 0 %}
+      {% for addon_with_name in metafield_products %}
+        {% assign addon_product = all_products[addon_with_name.attached_product] %}
+        {% assign product_counter = product_counter | plus: 1 %}
+        <div class="addonproduct-info">
+          <input
+            data-price="{{ addon_product.selected_or_first_available_variant.price }}"
+            data-com-price="{{ addon_product.selected_or_first_available_variant.compare_at_price }}"
+            type="checkbox"
+            class="block-swatch__radio"
+            id="addOnProduct-{{ product_counter }}"
+            name="addOnProduct-{{ product_counter }}"
+            value="{{ addon_product.selected_or_first_available_variant.id }}"
+          >
+          <label class="ProductListingInfo block-swatch__item" for="addOnProduct-{{ product_counter }}">
+            <span class="addOnProduct-title">
+              <img
+                src="{{ addon_product.featured_image | img_url: 'large' }}"
+                alt="{{ addon_product.images[0].alt }}"
+                height="40"
+                width="40"
+              >
+              <div class="product-metaTitle">
+                {% if addon_with_name.product_name != blank %}
+                  <span title="{{ addon_with_name.product_name }}">{{ addon_with_name.product_name }}</span>
+                {% else %}
+                  <span title="{{ addon_product.title }}">{{ addon_product.title }}</span>
+                {% endif %}
+                {% if addon_product.variants.size > 1 and addon_with_name.show_variant_options == true %}
+                  <select class="addon-product-variants" name="id">
+                    {% for variant in addon_product.variants %}
+                      <option
+                        value="{{ variant.id }}"
+                        {% if variant == product.selected_or_first_available_variant %}
+                          selected
+                        {% endif %}
+                        data-variant-price="{{ variant.price }}"
+                        data-varaint-price-with-money="{{ variant.price | money }}"
+                      >
+                        {{ variant.title }}
+                      </option>
+                    {% endfor %}
+                  </select>
+                {% endif %}
+
+                {%- unless template.suffix == 'quick-buy-drawer' -%}
+                  <div class="Click-here" data-id="{{ addon_product.id }}">Learn More</div>
+                {% else %}
+                  <a class="Click-here" href="{{ addon_product.url }}">Learn More</a>
+                {% endunless %}
+              </div>
+            </span>
+            <span class="custom_checkbox"></span>
+            <span class="addOnProduct-price">
+              {{- addon_product.selected_or_first_available_variant.price | money -}}
+            </span>
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% for addon_with_name in metafield_products %}
+  {% assign addon_product = all_products[addon_with_name.attached_product] %}
+  <div class="custom-model-main" modal-id="{{ addon_product.id }}">
+    <div class="custom-model-inner">
+      <div class="custom-model-wrap">
+          <div class="addon-product-popup-title">
+            <!-- Product Title Here -->
+            <h3>{{ addon_product.title }}</h3>
+            <div class="close-btn">×</div>
+          </div>
+        <div class="pop-up-content-wrap">
+          <div class="addon-product-popup-info">
+            <!-- Product Image Here -->
+            <div class="image-center">
+              <img
+                src="{{ addon_product.featured_image | img_url: 'large' }}"
+                alt="{{ addon_product.images[0].alt }}"
+                height=""
+                width=""
+              >
+            </div>
+            <div class="rte">
+              {{ addon_product.description }}
+            </div>
+          </div>
+          <div class="fixed-btn">
+            <a href="{{ addon_product.url }}" target="_blank" class="button button--secondary button--fullWidth"
+              >Go To Product Page</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-overlay"></div>
+  </div>
+{% endfor %}
