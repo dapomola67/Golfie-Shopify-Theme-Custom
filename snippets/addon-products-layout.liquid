@@ -326,15 +326,26 @@
         {% assign addon_product = all_products[addon_with_name.attached_product] %}
         {% assign product_counter = product_counter | plus: 1 %}
         <div class="addonproduct-info">
-          <input
-            data-price="{{ addon_product.selected_or_first_available_variant.price }}"
-            data-com-price="{{ addon_product.selected_or_first_available_variant.compare_at_price }}"
-            type="checkbox"
-            class="block-swatch__radio"
-            id="addOnProduct-{{ product_counter }}"
-            name="addOnProduct-{{ product_counter }}"
-            value="{{ addon_product.selected_or_first_available_variant.id }}"
-          >
+          {% if addon_product.selected_or_first_available_variant.compare_at_price %}
+            <input
+              data-price="{{ addon_product.selected_or_first_available_variant.price }}"
+              data-com-price="{{ addon_product.selected_or_first_available_variant.compare_at_price }}"
+              type="checkbox"
+              class="block-swatch__radio"
+              id="addOnProduct-{{ product_counter }}"
+              name="addOnProduct-{{ product_counter }}"
+              value="{{ addon_product.selected_or_first_available_variant.id }}"
+            />
+            {% else %}
+              <input
+              data-price="{{ addon_product.selected_or_first_available_variant.price }}"
+              type="checkbox"
+              class="block-swatch__radio"
+              id="addOnProduct-{{ product_counter }}"
+              name="addOnProduct-{{ product_counter }}"
+              value="{{ addon_product.selected_or_first_available_variant.id }}"
+            />
+          {% endif %}
           <label class="ProductListingInfo block-swatch__item" for="addOnProduct-{{ product_counter }}">
             <span class="addOnProduct-title">
               <img
