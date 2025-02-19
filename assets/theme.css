@@ -12086,6 +12086,10 @@ shopify-payment-terms {
   left: calc(var(--container-outer-width)  - 28px);
 }
 
+.addons_heading {
+  margin-block-end: -8px !important;
+}
+
 @media screen and (max-width: 999px) {
   .timeline {
     --timeline-image-max-width: 70vw;
@@ -12385,8 +12389,4 @@ h1, h2, h3, h4, h5, h6, blockquote {
 
 .p, p, button, div, object, iframe, p, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, small, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, hgroup, menu, nav, section, summary, time, mark, audio, video { 
   font-family: "GolfieRegular"!important; 
-}
-
-.addons_heading {
-  margin-block-end: -8px !important;
 }
