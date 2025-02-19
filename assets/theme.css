@@ -12388,5 +12388,5 @@ h1, h2, h3, h4, h5, h6, blockquote {
 }
 
 .addons_heading {
-  margin-block-end: -8px;
+  margin-block-end: -8px !important;
 }
