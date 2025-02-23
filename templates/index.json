@@ -14,7 +14,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "medium",
-        "image": "shopify://shop_images/The_Indoor_Golf_Shop_-_SIGPRO_Golf_Simulator_Wall_Padding-Golfieshop.webp",
+        "image": "shopify://shop_images/Golfie-Shop-Simboothkit_Hero_image-2.png",
         "subheading": "",
         "title": "Play world-class golf from the comfort of your home.",
         "content": "<p>Elevate your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
@@ -28,7 +28,7 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 40
       }
     },
     "slideshow": {
