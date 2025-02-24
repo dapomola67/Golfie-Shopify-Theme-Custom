@@ -5,7 +5,7 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 
-document.querySelectorAll(“.tiny-tabs-title”).forEach(el => {
+document.querySelectorAll(".tiny-tabs-title").forEach(el => {
     el.textContent = el.textContent.toLowerCase();
 });
 
