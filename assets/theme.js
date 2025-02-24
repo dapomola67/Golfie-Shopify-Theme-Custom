@@ -5,10 +5,6 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 
-document.querySelectorAll(".tiny-tabs-title").forEach(el => {
-    el.textContent = el.textContent.toLowerCase();
-});
-
 //Product Addon Price Updates Function
 const updateWithAddonPrices = () => {
     const mainPriceElement = document.querySelector('.product-price');
@@ -6982,3 +6978,8 @@ function addCloseButtonClickListeners() {
     });
   });
 }
+
+document.querySelectorAll(".tiny-tabs-title").forEach(el => {
+    el.textContent = el.textContent.toLowerCase();
+});
+
