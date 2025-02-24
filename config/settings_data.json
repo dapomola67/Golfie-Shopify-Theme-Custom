@@ -90,18 +90,18 @@
         "disabled": false,
         "settings": {}
       },
+      "5918707185744429496": {
+        "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
+        "disabled": true,
+        "settings": {}
+      },
       "7553055287323118546": {
         "type": "shopify://apps/trusted-tabs/blocks/tabs-embed/cd5da974-394e-41cb-b448-0c9a6d16a42d",
         "disabled": false,
         "settings": {
           "css_selector": ".product-tabs__tab-item-content",
-          "custom_css": ""
+          "custom_css": "#tiny-tabs-wrapper .tiny-tabs-title {\ntext-transform: capitalize !important;\n}"
         }
-      },
-      "5918707185744429496": {
-        "type": "shopify://apps/bss-variant-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
-        "disabled": true,
-        "settings": {}
       }
     }
   },
