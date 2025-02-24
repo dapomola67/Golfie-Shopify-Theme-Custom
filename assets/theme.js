@@ -6,6 +6,7 @@ var __publicField = (obj, key, value) => {
 };
 
 document.querySelectorAll(".tiny-tabs-title").forEach(el => {
+    console.log('el', el);
     el.textContent = el.textContent.toLowerCase();
 });
 
