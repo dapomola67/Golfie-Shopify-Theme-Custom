@@ -6979,13 +6979,3 @@ function addCloseButtonClickListeners() {
   });
 }
 
-document.querySelectorAll(".tiny-tabs-title").forEach(el => {
-    el.textContent = el.textContent.toLowerCase();
-});
-
-setTimeout(() => {
-document.querySelectorAll(“.tiny-tabs-title”).forEach(el => {
-    el.textContent = el.textContent.toLowerCase();
-});
-  }, 2000);
-
