@@ -99,7 +99,7 @@
         "type": "shopify://apps/trusted-tabs/blocks/tabs-embed/cd5da974-394e-41cb-b448-0c9a6d16a42d",
         "disabled": false,
         "settings": {
-          "css_selector": ".product-tabs__tab-item-content",
+          "css_selector": ".product-tabs__tab-item-content.rte",
           "custom_css": "#tiny-tabs-wrapper .tiny-tabs-title {\ntext-transform: capitalize !important;\n}"
         }
       }
