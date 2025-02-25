@@ -115,7 +115,7 @@
         "subheading": "",
         "title": "",
         "liquid": "",
-        "add_vertical_spacing": true,
+        "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
