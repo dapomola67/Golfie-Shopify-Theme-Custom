@@ -6983,3 +6983,7 @@ document.querySelectorAll(".tiny-tabs-title").forEach(el => {
     el.textContent = el.textContent.toLowerCase();
 });
 
+document.querySelectorAll(“.tiny-tabs-title”).forEach(el => {
+    el.textContent = el.textContent.toLowerCase();
+});
+
