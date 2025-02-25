@@ -76,11 +76,31 @@
         "transition_effect": "slide"
       }
     },
+    "17404480249b3a1468": {
+      "type": "apps",
+      "blocks": {
+        "trusted_tabs_tabs_block_v2_W9zfct": {
+          "type": "shopify://apps/trusted-tabs/blocks/tabs-block-v2/cd5da974-394e-41cb-b448-0c9a6d16a42d",
+          "settings": {
+            "include_description": true,
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "trusted_tabs_tabs_block_v2_W9zfct"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
     "product-content": {
       "type": "product-content",
       "blocks": {
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -130,6 +150,7 @@
   },
   "order": [
     "main",
+    "17404480249b3a1468",
     "product-content",
     "custom_liquid_yPrqNe",
     "product-recommendations",
