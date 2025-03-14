@@ -65,6 +65,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "social_media": {
+          "type": "social_media",
+          "settings": {
+            "title": "Golfie",
+            "content": "<p>Store Name: Mello Holdings LLC DBA Golfie</p><p>We're here to help you improve your golf game, whether you're on the course or in your home simulator.</p>"
+          }
+        },
         "links_pjFfg3": {
           "type": "links",
           "settings": {
@@ -91,21 +98,14 @@
             "title": "join the club",
             "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
           }
-        },
-        "social_media": {
-          "type": "social_media",
-          "settings": {
-            "title": "Business Information",
-            "content": "<p>Store Name: Mello Holdings LLC DBA Golfie</p><p>Business Address: 590 Orange Street, Connecticut CT, 06511</p>"
-          }
         }
       },
       "block_order": [
+        "social_media",
         "links_pjFfg3",
         "links",
         "text_Ai6MiY",
-        "newsletter",
-        "social_media"
+        "newsletter"
       ],
       "settings": {
         "show_payment_icons": true,
