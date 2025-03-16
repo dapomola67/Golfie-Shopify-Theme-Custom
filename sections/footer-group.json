@@ -88,7 +88,7 @@
           "type": "text",
           "settings": {
             "title": "Get in Touch",
-            "content": "<p>Phone: <a href=\"tel:+1 203 687 4355\" target=\"_blank\" title=\"tel:+1 203 687 4355\">+1 (203) 687 4355</a><br/>Email: <a href=\"mailto:support@golfieshop.com\" target=\"_blank\" title=\"mailto:support@golfieshop.com\">support@golfieshop.com</a></p><p>Business Hours: Monday - Friday: 9:00 AM - 6:00 PM (EST)<br/>Saturday: 10:00 AM - 4:00 PM (EST)<br/>Sunday: Closed</p><p>Online chat and email are available most of the time including weekends.</p>"
+            "content": "<p>Phone: <a href=\"tel:+1 203 687 4355\" target=\"_blank\" title=\"tel:+1 203 687 4355\">+1 (203) 687 4355</a><br/>Email: <a href=\"mailto:support@golfieshop.com\" target=\"_blank\" title=\"mailto:support@golfieshop.com\">support@golfieshop.com</a></p><p>Business Hours: Mon - Sat: 9:00 AM - 6:00 PM (EST)</p><p>Online chat and email are available most of the time including weekends.</p>"
           }
         },
         "newsletter": {
