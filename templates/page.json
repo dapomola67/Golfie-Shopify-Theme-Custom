@@ -20,7 +20,7 @@
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
