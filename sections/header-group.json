@@ -48,7 +48,8 @@
           "settings": {
             "menu_item": "Golf Simulators",
             "images_position": "right",
-            "image_1_heading": "",
+            "image_1": "shopify://shop_images/SimBooth_Kit_with_IDRA_Launch_Monitor1-Golfieshop.png",
+            "image_1_heading": "SimBooth Kit with IDRA Launch Monitor",
             "image_1_text": "",
             "image_1_link": "",
             "image_2_heading": "",
