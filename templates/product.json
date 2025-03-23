@@ -97,16 +97,6 @@
     },
     "product-content": {
       "type": "product-content",
-      "blocks": {
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "description"
-      ],
       "settings": {}
     },
     "custom_liquid_yPrqNe": {
@@ -115,7 +105,7 @@
         "subheading": "",
         "title": "",
         "liquid": "",
-        "add_vertical_spacing": false,
+        "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
