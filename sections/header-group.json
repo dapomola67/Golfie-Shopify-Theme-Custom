@@ -122,12 +122,40 @@
             "image_6_text": "",
             "image_6_link": ""
           }
+        },
+        "mega_menu_6cFPX3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Nets & Mats",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/Carl_s_Place_HotShot_Golf_Hitting_Mat6_-_Golfieshop.webp",
+            "image_1_heading": "Carl's Place HotShot Golf Hitting Mat",
+            "image_1_text": "",
+            "image_1_link": "shopify://products/carls-place-hotshot-golf-hitting-mat",
+            "image_2": "shopify://shop_images/The_Indoor_Golf_Shop_-_SIGPRO_Softy_Lite_Golf_Mat2-Golfieshop.jpg",
+            "image_2_heading": "SIGPRO Softy Lite Golf Mat",
+            "image_2_text": "",
+            "image_2_link": "shopify://products/sigpro-softy-lite-golf-mat",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
         }
       },
       "block_order": [
         "mega_menu_4aQzWi",
         "mega_menu_yxYFXr",
-        "mega_menu_YadEyF"
+        "mega_menu_YadEyF",
+        "mega_menu_6cFPX3"
       ],
       "settings": {
         "enable_sticky_header": true,
