@@ -155,9 +155,10 @@
           "settings": {
             "menu_item": "Projectors",
             "images_position": "right",
-            "image_1_heading": "",
+            "image_1": "shopify://shop_images/BenQ-LK936ST-4K-HDR-Short-Throw-Laser-Projector-for-Golf-Simulators-Golfieshop-4.webp",
+            "image_1_heading": "BenQ LK936ST 4K HDR Short Throw Laser Projector",
             "image_1_text": "",
-            "image_1_link": "",
+            "image_1_link": "shopify://products/benq-lk936st-4k-hdr-short-throw-laser-projector-for-golf-simulators",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
