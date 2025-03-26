@@ -20,7 +20,7 @@
             "icon": "picto-box",
             "custom_icon_width": 50,
             "title": "Free shipping (Exclusions Apply)",
-            "content": "<p>Enjoy fast and free shipping on products from leading manufacturers.</p>"
+            "content": "<p>Enjoy <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">fast and free shipping</a> on products from leading manufacturers.</p>"
           }
         },
         "item-4": {
