@@ -75,7 +75,13 @@
                   <button class="link" data-action="open-content">{{ block.settings.text | escape }}</button>
                 {%- endif -%}
               {%- else -%}
-<p>{{ block.settings.text | replace: '+1 (203) 687 4355', '<a href="tel:+12036874355" style="color: inherit; text-decoration: none;">+1 (203) 687 4355</a>' }}</p>
+<p>
+  {{ block.settings.text 
+     | replace: '+1 (203) 687 4355', '<a href="tel:+12036874355" style="color: inherit; text-decoration: none;">+1 (203) 687 4355</a>'
+     | replace: 'support@golfieshop.com', '<a href="mailto:support@golfieshop.com" style="color: inherit; text-decoration: none;">support@golfieshop.com</a>'
+  }}
+</p>
+                
 
                 {%- endif -%}
             </div>
