@@ -20,7 +20,7 @@
             "icon": "picto-box",
             "custom_icon_width": 50,
             "title": "Free shipping (Exclusions Apply)",
-            "content": "<p>Enjoy <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">fast and free shipping</a> on products from leading manufacturers.</p>"
+            "content": "<p>Enjoy <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">fast and free shipping</a> on products from leading manufacturers.</p>"
           }
         },
         "item-4": {
@@ -29,7 +29,7 @@
             "icon": "picto-like",
             "custom_icon_width": 50,
             "title": "Price Match Guarantee",
-            "content": "<p>Find a competitor with a lower price and we will match or beat it, no questions asked!</p>"
+            "content": "<p>Find a competitor with a lower price and we will match or beat it. See our <a href=\"/pages/price-match-policy\" target=\"_blank\" title=\"Price Match Policy\">price match policy</a>.</p>"
           }
         },
         "item-2": {
@@ -38,7 +38,7 @@
             "icon": "picto-phone",
             "custom_icon_width": 50,
             "title": "Customer service",
-            "content": "<p>Got a question? Let our experts guide you in building the perfect golf simulator.</p>"
+            "content": "<p>Got a question? Let our <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">experts</a> guide you in building the perfect golf simulator.</p>"
           }
         },
         "item-3": {
@@ -47,7 +47,7 @@
             "icon": "picto-lock",
             "custom_icon_width": 50,
             "title": "Secure payment",
-            "content": "<p>Encrypted SSL connection to ensure that your credit card information is 100% safe.</p>"
+            "content": "<p>Encrypted SSL connection to ensure that your credit card information is <a href=\"/pages/payments-policy\" target=\"_blank\" title=\"Payments Policy\">100% safe</a>.</p>"
           }
         }
       },
