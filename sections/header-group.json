@@ -18,7 +18,7 @@
           "type": "message",
           "settings": {
             "text": "Need Help? Text/Call: +1 (203) 687 4355",
-            "learn_more_text": "tel:+1 203 687 4355",
+            "learn_more_text": "",
             "title": "",
             "content": "",
             "button_text": "",
