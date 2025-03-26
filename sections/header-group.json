@@ -20,15 +20,15 @@
             "text": "Need Help? Text/Call: +1 (203) 687 4355",
             "learn_more_text": "",
             "title": "",
-            "content": "<p>hh</p>",
+            "content": "",
             "button_text": "",
             "button_link": "tel:+1 203 687 4355"
           }
         },
-        "message_QCdBWT": {
+        "message_pdyVyk": {
           "type": "message",
           "settings": {
-            "text": "< a href = \"tel:+233>+233",
+            "text": "Announce something here",
             "learn_more_text": "Learn more",
             "title": "",
             "content": "",
@@ -39,7 +39,7 @@
       },
       "block_order": [
         "message_gm7EN4",
-        "message_QCdBWT"
+        "message_pdyVyk"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
