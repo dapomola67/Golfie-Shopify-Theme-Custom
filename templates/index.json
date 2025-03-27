@@ -306,7 +306,7 @@
         "question_xKqfA3": {
           "type": "question",
           "settings": {
-            "title": "Do you make a custom sized golf enclosures?",
+            "title": "Do you make custom sized golf enclosures?",
             "answer": "<p>Yes, we offer custom-sized golf enclosures. <a href=\"/pages/contact-us\" title=\"Contact Us\">Get in touch</a> with us and share your specific requirements, and we will work with you to create an enclosure that is suited to your space.</p>"
           }
         },
@@ -314,14 +314,14 @@
           "type": "question",
           "settings": {
             "title": "How long will it take to get my order?",
-            "answer": "<p>Orders are typically processed and shipped within 1-2 business days. Transit times vary from 2-7 business days. Exact delivery details will be provided in the products descriptions and in your confirmation email. You can also inquire on a specific product's lead time with our customer service reps before purchase. please find out more on our <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a> page.</p>"
+            "answer": "<p>Orders are typically processed and shipped within 1-2 business days. Transit times vary from 2-7 business days. Exact delivery details will be provided in the products descriptions and in your confirmation email. You can also inquire on a specific product's lead time with our customer service reps before purchase. Please find out more on our <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a> page.</p>"
           }
         },
         "question_eTqUxy": {
           "type": "question",
           "settings": {
             "title": "Do your products come with warranties?",
-            "answer": "<p>We have a direct relationship with the manufacturers of our products so we are able to pass on to you their manufacturer warranties. Please see product descriptions for each product's warranty policies. Reach out to us if you are interested in extending your manufacturer warranty</p>"
+            "answer": "<p>We have a direct relationship with the manufacturers of our products so we are able to pass on to you their manufacturer warranties. Please see product descriptions for each product's warranty policies. Reach out to us if you are interested in extending your manufacturer warranty.</p>"
           }
         },
         "question_m7i94x": {
