@@ -113,7 +113,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "launch-monitors",
+            "collection": "golf-launch-monitors",
             "subheading": "",
             "title": "Launch Monitors",
             "link_text": "",
