@@ -115,7 +115,7 @@
           "settings": {
             "collection": "golf-launch-monitors",
             "subheading": "",
-            "title": "Launch Monitors",
+            "title": "Golf Launch Monitors",
             "link_text": "",
             "link_url": "",
             "text_color": "#ffffff",
@@ -128,7 +128,7 @@
           "settings": {
             "collection": "mats",
             "subheading": "",
-            "title": "Mats",
+            "title": "Golf Mats",
             "link_text": "",
             "link_url": "",
             "text_color": "#ffffff",
@@ -141,7 +141,7 @@
           "settings": {
             "collection": "enclosures",
             "subheading": "",
-            "title": "Enclosures",
+            "title": "Golf Simulator Enclosures",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
@@ -154,7 +154,7 @@
           "settings": {
             "collection": "nets",
             "subheading": "",
-            "title": "Nets",
+            "title": "Practice Nets",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
@@ -165,9 +165,9 @@
         "collection_aadhik": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
+            "collection": "projectors",
             "subheading": "",
-            "title": "Accessories",
+            "title": "Golf Simulator Projectors",
             "link_text": "",
             "link_url": "",
             "text_color": "rgba(0,0,0,0)",
