@@ -221,6 +221,7 @@
         "variant-picker",
         "buy-buttons"
       ],
+      "disabled": true,
       "settings": {
         "product": "carls-place-pro-golf-simulator-enclosure-kit-with-impact-screen",
         "subheading": "",
