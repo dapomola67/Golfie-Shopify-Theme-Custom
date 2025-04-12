@@ -361,9 +361,94 @@
       "block_order": [
         "judge_me_reviews_review_widget_homepage_fM9MaC"
       ],
+      "disabled": true,
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": true
+      }
+    },
+    "multi_column_aGKbxf": {
+      "type": "multi-column",
+      "blocks": {
+        "item_cyGX3B": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Carl_s_Place_Curved_Golf_Simulator_Enclosure_Kit_with_Impact_Screen_-_Golfieshop.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Impact Zone",
+            "content": "<p>Protect your space and swing with confidence. A premium enclosure with impact screen forms the foundation of your setup.<br/></p>",
+            "link_text": "Shop Enclosures",
+            "link_url": "shopify://collections/enclosures",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_aphN3F": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/The_Indoor_Golf_Shop_-_Money_Putt_Golf_Turf1-Golfieshop.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Strike Zone",
+            "content": "<p>Train like you're on the course. High-performance hitting mats deliver realistic turf feel and durability for daily practice.<br/></p>",
+            "link_text": "Shop Hitting Mats",
+            "link_url": "shopify://collections/mats",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_wrAtKd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GolfJoy-GDS-Plus-Simulator_480x480_ea9b990e-9c54-4dc1-a05f-e2659acd966d.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Feedback Zone",
+            "content": "<p>Track every shot with precision. Launch monitors capture ball data, club metrics, and swing insights to sharpen your game.<br/></p>",
+            "link_text": "Shop Launch Monitors",
+            "link_url": "shopify://collections/golf-launch-monitors",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_69WMDy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/GolfJoy-GSV-Pro-Launch-Monitor-Golfieshop-5.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Visual Zone",
+            "content": "<p>Bring the course to life. A high-lumen HD projector transforms your space with immersive visuals and crystal-clear ball flight.<br/></p>",
+            "link_text": "Shop Projectors",
+            "link_url": "shopify://collections/projectors",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_cyGX3B",
+        "item_aphN3F",
+        "item_wrAtKd",
+        "item_69WMDy"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Core Components. Pro Performance.",
+        "content": "<p>Design a complete indoor golf setup with just four key components. Whether you’re building a pro-level simulator or a sleek home setup, these essentials bring your golf space to life.</p>",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "loose",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -376,6 +461,7 @@
     "image-with-text",
     "image-with-text-block",
     "faq_wRcGRC",
-    "1742960789326776c5"
+    "1742960789326776c5",
+    "multi_column_aGKbxf"
   ]
 }
