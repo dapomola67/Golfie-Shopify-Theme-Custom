@@ -584,7 +584,7 @@
         "show_navigation": false,
         "title": "FAQs",
         "content": "<p>You can <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact us</a> through text, phone and email! Visit our contact page for more information. We will be happy to assist you.</p>",
-        "background": "rgba(0,0,0,0)",
+        "background": "#f7f7f7",
         "text_color": "rgba(0,0,0,0)"
       }
     },
