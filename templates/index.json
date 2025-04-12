@@ -294,79 +294,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "faq_wRcGRC": {
-      "type": "faq",
-      "blocks": {
-        "question_y8hHxn": {
-          "type": "question",
-          "settings": {
-            "title": "How much space do I need to swing a golf club?",
-            "answer": "<p>For a comfortable golf simulator setup, we recommend the following minimum space requirements:</p><ul><li><strong>Ceiling Height:</strong> At least <strong>2.8m (9.2ft)</strong> is required, though <strong>3m (9.8ft)</strong> is ideal to ensure you can swing freely with any club.</li><li><strong>Width:</strong> A minimum of <strong>3m (9.8ft)</strong> is recommended for adequate space.</li><li><strong>Depth:</strong> For a photometric system, allow at least <strong>4m (13.1ft)</strong>, while a radar-based launch monitor requires <strong>5m (16.4ft)</strong> for optimal performance.</li></ul>"
-          }
-        },
-        "question_xKqfA3": {
-          "type": "question",
-          "settings": {
-            "title": "Do you make custom sized golf enclosures?",
-            "answer": "<p>Yes, we offer custom-sized golf enclosures. <a href=\"/pages/contact-us\" title=\"Contact Us\">Get in touch</a> with us and share your specific requirements, and we will work with you to create an enclosure that is suited to your space.</p>"
-          }
-        },
-        "question_DeFdBt": {
-          "type": "question",
-          "settings": {
-            "title": "How long will it take to get my order?",
-            "answer": "<p>Orders are typically processed and shipped within 1-2 business days. Transit times vary from 2-7 business days. Exact delivery details will be provided in the products descriptions and in your confirmation email. You can also inquire on a specific product's lead time with our customer service reps before purchase. Please find out more on our <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a> page.</p>"
-          }
-        },
-        "question_eTqUxy": {
-          "type": "question",
-          "settings": {
-            "title": "Do your products come with warranties?",
-            "answer": "<p>We have a direct relationship with the manufacturers of our products so we are able to pass on to you their manufacturer warranties. Please see product descriptions for each product's warranty policies. Reach out to us if you are interested in extending your manufacturer warranty.</p>"
-          }
-        },
-        "question_m7i94x": {
-          "type": "question",
-          "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can reach out to us via our <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact page.</a> We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_y8hHxn",
-        "question_xKqfA3",
-        "question_DeFdBt",
-        "question_eTqUxy",
-        "question_m7i94x"
-      ],
-      "settings": {
-        "show_navigation": false,
-        "title": "FAQs",
-        "content": "<p>You can <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact us</a> through text, phone and email! Visit our contact page for more information. We will be happy to assist you.</p>",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1742960789326776c5": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_homepage_fM9MaC": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "product": "sigpro-super-softy"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_homepage_fM9MaC"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
-      }
-    },
     "multi_column_aGKbxf": {
       "type": "multi-column",
       "blocks": {
@@ -450,6 +377,235 @@
         "background": "#f5f5f5",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "faq_wRcGRC": {
+      "type": "faq",
+      "blocks": {
+        "question_y8hHxn": {
+          "type": "question",
+          "settings": {
+            "title": "How much space do I need to swing a golf club?",
+            "answer": "<p>For a comfortable golf simulator setup, we recommend the following minimum space requirements:</p><ul><li><strong>Ceiling Height:</strong> At least <strong>2.8m (9.2ft)</strong> is required, though <strong>3m (9.8ft)</strong> is ideal to ensure you can swing freely with any club.</li><li><strong>Width:</strong> A minimum of <strong>3m (9.8ft)</strong> is recommended for adequate space.</li><li><strong>Depth:</strong> For a photometric system, allow at least <strong>4m (13.1ft)</strong>, while a radar-based launch monitor requires <strong>5m (16.4ft)</strong> for optimal performance.</li></ul>"
+          }
+        },
+        "question_xKqfA3": {
+          "type": "question",
+          "settings": {
+            "title": "Do you make custom sized golf enclosures?",
+            "answer": "<p>Yes, we offer custom-sized golf enclosures. <a href=\"/pages/contact-us\" title=\"Contact Us\">Get in touch</a> with us and share your specific requirements, and we will work with you to create an enclosure that is suited to your space.</p>"
+          }
+        },
+        "question_DeFdBt": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>Orders are typically processed and shipped within 1-2 business days. Transit times vary from 2-7 business days. Exact delivery details will be provided in the products descriptions and in your confirmation email. You can also inquire on a specific product's lead time with our customer service reps before purchase. Please find out more on our <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a> page.</p>"
+          }
+        },
+        "question_eTqUxy": {
+          "type": "question",
+          "settings": {
+            "title": "Do your products come with warranties?",
+            "answer": "<p>We have a direct relationship with the manufacturers of our products so we are able to pass on to you their manufacturer warranties. Please see product descriptions for each product's warranty policies. Reach out to us if you are interested in extending your manufacturer warranty.</p>"
+          }
+        },
+        "question_m7i94x": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can reach out to us via our <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact page.</a> We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_y8hHxn",
+        "question_xKqfA3",
+        "question_DeFdBt",
+        "question_eTqUxy",
+        "question_m7i94x"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQs",
+        "content": "<p>You can <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact us</a> through text, phone and email! Visit our contact page for more information. We will be happy to assist you.</p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1742960789326776c5": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_fM9MaC": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "sigpro-super-softy"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_fM9MaC"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "logo_list_RU6qa6": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_hhGDhJ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Uneekor-logo_200x_4c56a076-aabb-49a2-a23c-31467d5f31d1.png",
+            "link": "shopify://collections/uneekor"
+          }
+        },
+        "logo_tgW6H3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/TruGolf-Logo-Color_200x_d671085c-70a7-4fef-a007-01eb5e183fe5.png",
+            "link": "shopify://collections/trugolf"
+          }
+        },
+        "logo_HDdcXY": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/SkyTrak-logo-large_200x_8351dc16-0fd7-40b8-aa4b-48bce5e1dc4d.png",
+            "link": "shopify://collections/skytrak-golf-simulators"
+          }
+        },
+        "logo_jJBpwp": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/full_swing.png",
+            "link": "shopify://collections/full-swing"
+          }
+        },
+        "logo_CYVrHb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Rapsodo_logo.png",
+            "link": "shopify://collections/rapsodo"
+          }
+        },
+        "logo_qXwhA4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/simbooth_logo.png",
+            "link": "shopify://collections/simbooth"
+          }
+        },
+        "logo_m8CWfc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Red_Stakes_Golf_-_Text_-_Color_redandblack.png",
+            "link": "shopify://collections/rsg-optishot-launch-monitors"
+          }
+        },
+        "logo_qWhYMA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ACCUGOLF_Logo.png",
+            "link": "shopify://products/accugolf-hawkeye-launch-monitor"
+          }
+        },
+        "logo_8NtanN": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Carl_s-Place-Logo.png",
+            "link": "shopify://collections/carls-place"
+          }
+        },
+        "logo_4gDVGp": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/The_indoor_golf_shop_logo..png",
+            "link": "shopify://collections/the-indoor-golf-shop"
+          }
+        },
+        "logo_aU3DJA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/The_Net_Return.png",
+            "link": "shopify://collections/the-net-return"
+          }
+        },
+        "logo_XJmmhg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/The-SportScreen_200x_a1f45957-613f-4455-8b14-3656ab67578e.png",
+            "link": "shopify://collections/the-sportscreen-enclosures"
+          }
+        },
+        "logo_dXKz4T": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/G-Trak_Logo.png",
+            "link": "shopify://collections/g-trak"
+          }
+        },
+        "logo_QYUTFB": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Spornia_Logo.webp",
+            "link": "shopify://collections/spornia"
+          }
+        },
+        "logo_Y4dQcT": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/BenQ_Logo.png",
+            "link": "shopify://collections/benq-golf-simulator-projectors"
+          }
+        },
+        "logo_LBQ43K": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/LG_logo-home.png",
+            "link": "shopify://products/lg-probeam-bu53rg-5000-lumen-laser-4k-uhd-projector"
+          }
+        },
+        "logo_RHEqDa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ods-logo_2x_png.jpg",
+            "link": "shopify://collections/on-deck-sports"
+          }
+        }
+      },
+      "block_order": [
+        "logo_hhGDhJ",
+        "logo_tgW6H3",
+        "logo_HDdcXY",
+        "logo_jJBpwp",
+        "logo_CYVrHb",
+        "logo_qXwhA4",
+        "logo_m8CWfc",
+        "logo_qWhYMA",
+        "logo_8NtanN",
+        "logo_4gDVGp",
+        "logo_aU3DJA",
+        "logo_XJmmhg",
+        "logo_dXKz4T",
+        "logo_QYUTFB",
+        "logo_Y4dQcT",
+        "logo_LBQ43K",
+        "logo_RHEqDa"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Shop By Brand",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -462,6 +618,7 @@
     "image-with-text-block",
     "multi_column_aGKbxf",
     "faq_wRcGRC",
-    "1742960789326776c5"
+    "1742960789326776c5",
+    "logo_list_RU6qa6"
   ]
 }
