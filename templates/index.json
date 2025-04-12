@@ -381,14 +381,14 @@
             "link_text": "Shop Enclosures",
             "link_url": "shopify://collections/enclosures",
             "link_style": "link",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "vertical_alignment": "start"
           }
         },
         "item_aphN3F": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/The_Indoor_Golf_Shop_-_Money_Putt_Golf_Turf1-Golfieshop.webp",
+            "image": "shopify://shop_images/Carl_s_Place_HotShot_Golf_Hitting_Mat-Golfieshop.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Strike Zone",
@@ -396,14 +396,14 @@
             "link_text": "Shop Hitting Mats",
             "link_url": "shopify://collections/mats",
             "link_style": "link",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "vertical_alignment": "start"
           }
         },
         "item_wrAtKd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/GolfJoy-GDS-Plus-Simulator_480x480_ea9b990e-9c54-4dc1-a05f-e2659acd966d.png",
+            "image": "shopify://shop_images/Uneekor_EYE_XO_Launch_Monitor-golfieshop-4.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Feedback Zone",
@@ -411,14 +411,14 @@
             "link_text": "Shop Launch Monitors",
             "link_url": "shopify://collections/golf-launch-monitors",
             "link_style": "link",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "vertical_alignment": "start"
           }
         },
         "item_69WMDy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/GolfJoy-GSV-Pro-Launch-Monitor-Golfieshop-5.jpg",
+            "image": "shopify://shop_images/BenQ-AK700ST-4000-Lumen-4K-Short-Throw-Laser-Projector-for-Golf-Simulators-Golfieshop-9.webp",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Visual Zone",
