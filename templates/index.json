@@ -374,81 +374,8 @@
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "loose",
-        "background": "#f5f5f5",
+        "background": "#f7f7f7",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "faq_wRcGRC": {
-      "type": "faq",
-      "blocks": {
-        "question_y8hHxn": {
-          "type": "question",
-          "settings": {
-            "title": "How much space do I need to swing a golf club?",
-            "answer": "<p>For a comfortable golf simulator setup, we recommend the following minimum space requirements:</p><ul><li><strong>Ceiling Height:</strong> At least <strong>2.8m (9.2ft)</strong> is required, though <strong>3m (9.8ft)</strong> is ideal to ensure you can swing freely with any club.</li><li><strong>Width:</strong> A minimum of <strong>3m (9.8ft)</strong> is recommended for adequate space.</li><li><strong>Depth:</strong> For a photometric system, allow at least <strong>4m (13.1ft)</strong>, while a radar-based launch monitor requires <strong>5m (16.4ft)</strong> for optimal performance.</li></ul>"
-          }
-        },
-        "question_xKqfA3": {
-          "type": "question",
-          "settings": {
-            "title": "Do you make custom sized golf enclosures?",
-            "answer": "<p>Yes, we offer custom-sized golf enclosures. <a href=\"/pages/contact-us\" title=\"Contact Us\">Get in touch</a> with us and share your specific requirements, and we will work with you to create an enclosure that is suited to your space.</p>"
-          }
-        },
-        "question_DeFdBt": {
-          "type": "question",
-          "settings": {
-            "title": "How long will it take to get my order?",
-            "answer": "<p>Orders are typically processed and shipped within 1-2 business days. Transit times vary from 2-7 business days. Exact delivery details will be provided in the products descriptions and in your confirmation email. You can also inquire on a specific product's lead time with our customer service reps before purchase. Please find out more on our <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a> page.</p>"
-          }
-        },
-        "question_eTqUxy": {
-          "type": "question",
-          "settings": {
-            "title": "Do your products come with warranties?",
-            "answer": "<p>We have a direct relationship with the manufacturers of our products so we are able to pass on to you their manufacturer warranties. Please see product descriptions for each product's warranty policies. Reach out to us if you are interested in extending your manufacturer warranty.</p>"
-          }
-        },
-        "question_m7i94x": {
-          "type": "question",
-          "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can reach out to us via our <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact page.</a> We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_y8hHxn",
-        "question_xKqfA3",
-        "question_DeFdBt",
-        "question_eTqUxy",
-        "question_m7i94x"
-      ],
-      "settings": {
-        "show_navigation": false,
-        "title": "FAQs",
-        "content": "<p>You can <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact us</a> through text, phone and email! Visit our contact page for more information. We will be happy to assist you.</p>",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1742960789326776c5": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_homepage_fM9MaC": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "product": "sigpro-super-softy"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_homepage_fM9MaC"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
       }
     },
     "logo_list_RU6qa6": {
@@ -606,6 +533,79 @@
         "button_text_color": "rgba(0,0,0,0)",
         "logo_background": "rgba(0,0,0,0)"
       }
+    },
+    "faq_wRcGRC": {
+      "type": "faq",
+      "blocks": {
+        "question_y8hHxn": {
+          "type": "question",
+          "settings": {
+            "title": "How much space do I need to swing a golf club?",
+            "answer": "<p>For a comfortable golf simulator setup, we recommend the following minimum space requirements:</p><ul><li><strong>Ceiling Height:</strong> At least <strong>2.8m (9.2ft)</strong> is required, though <strong>3m (9.8ft)</strong> is ideal to ensure you can swing freely with any club.</li><li><strong>Width:</strong> A minimum of <strong>3m (9.8ft)</strong> is recommended for adequate space.</li><li><strong>Depth:</strong> For a photometric system, allow at least <strong>4m (13.1ft)</strong>, while a radar-based launch monitor requires <strong>5m (16.4ft)</strong> for optimal performance.</li></ul>"
+          }
+        },
+        "question_xKqfA3": {
+          "type": "question",
+          "settings": {
+            "title": "Do you make custom sized golf enclosures?",
+            "answer": "<p>Yes, we offer custom-sized golf enclosures. <a href=\"/pages/contact-us\" title=\"Contact Us\">Get in touch</a> with us and share your specific requirements, and we will work with you to create an enclosure that is suited to your space.</p>"
+          }
+        },
+        "question_DeFdBt": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>Orders are typically processed and shipped within 1-2 business days. Transit times vary from 2-7 business days. Exact delivery details will be provided in the products descriptions and in your confirmation email. You can also inquire on a specific product's lead time with our customer service reps before purchase. Please find out more on our <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a> page.</p>"
+          }
+        },
+        "question_eTqUxy": {
+          "type": "question",
+          "settings": {
+            "title": "Do your products come with warranties?",
+            "answer": "<p>We have a direct relationship with the manufacturers of our products so we are able to pass on to you their manufacturer warranties. Please see product descriptions for each product's warranty policies. Reach out to us if you are interested in extending your manufacturer warranty.</p>"
+          }
+        },
+        "question_m7i94x": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can reach out to us via our <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact page.</a> We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_y8hHxn",
+        "question_xKqfA3",
+        "question_DeFdBt",
+        "question_eTqUxy",
+        "question_m7i94x"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQs",
+        "content": "<p>You can <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">contact us</a> through text, phone and email! Visit our contact page for more information. We will be happy to assist you.</p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1742960789326776c5": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_fM9MaC": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "sigpro-super-softy"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_fM9MaC"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
     }
   },
   "order": [
@@ -617,8 +617,8 @@
     "image-with-text",
     "image-with-text-block",
     "multi_column_aGKbxf",
+    "logo_list_RU6qa6",
     "faq_wRcGRC",
-    "1742960789326776c5",
-    "logo_list_RU6qa6"
+    "1742960789326776c5"
   ]
 }
