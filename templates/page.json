@@ -9,24 +9,6 @@
  */
 {
   "sections": {
-    "rich_text_AVhqBn": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "About Us",
-        "content": "<p>Every golfer knows that feeling - the itch to play just one more round, to perfect that swing, to sink that crucial putt. But between busy schedules and unpredictable weather, finding time for the game we love isn't always easy.</p><p>That's where Golfie comes in.</p><p>Our mission is to democratize access to golf, breaking down the traditional barriers that have made it a gated, exclusive sport. We believe everyone deserves to experience the joy and beauty of golf without expensive club memberships, course fees, or weather limitations.</p><p>Founded to make golf truly accessible, we offer premium golf simulators, launch monitors, and accessories that bring the course experience right to your doorstep. Our carefully selected products help you practice and improve year-round without the constraints of traditional golf culture.</p><p>At Golfie, we're dedicated to exceptional customer service. We offer fast, free shipping on all orders, a price match guarantee, and secure checkout for a seamless shopping experience. Our team provides personalized guidance to help you find the perfect setup that matches both your goals and budget.</p><p>We partner with leading brands and equipment experts to ensure every product delivers outstanding performance and value, whether you're a seasoned player or just beginning your golf journey.</p><p>Welcome to Golfie - where we remove the barriers between you and the game you love.</p><p></p><p>Contact us at <a href=\"mailto:support@golfieshop.com\" title=\"mailto:support@golfieshop.com\">support@golfieshop.com</a> or <a href=\"tel:+1 (203) 687 4355\" title=\"tel:+1 (203) 687 4355\">+1 (203) 687 4355</a> for any inquiries or assistance.</p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -34,10 +16,165 @@
         "show_title": true,
         "page_width": "medium"
       }
+    },
+    "image_with_text_9t6knP": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_9QrD3R": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/golfjoy-gdsplus-_GolfJoy-GSV-Plus-Launch-Monitor-Golfieshop-5.webp",
+            "tab_label": "Item",
+            "subheading": "Join Us",
+            "title": "Affiliate Program",
+            "content": "<p>Drive traffic from your website or social program to golfie.com & make money! You'll earn a commission on every purchase made by customers you refer.</p>",
+            "button_text": "Join Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9QrD3R"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_xcEnXP": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Earn a Commission for Every Customer You Send",
+        "content": "<p>Get rewarded for your online influence and social capital. Promote indoor golf products through your content and get paid for every sale.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#cdfa87",
+        "text_color": "#2a4c3a",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_XJ6jqk": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_hpXACp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/golfjoy-gdsplus-_GolfJoy-GSV-Plus-Launch-Monitor-Golfieshop-5.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "How It Works",
+            "content": "<p><strong>Step 1 - </strong>Apply to AvantLink, our affiliate network provider.</p><p><strong>Step 2 - </strong>Complete the application for the Golfie affiliate program.</p><p><strong>Step 3 - </strong>Once approved, post a golfieshop.com link on your site.</p><p><strong>Step 4 - </strong>Send customers to Golfie through your links and you will be paid for completed sales via AvantLink.</p><p><strong>Step 5 - </strong>Track your clicks and commissions through the AvantLink interface.</p>",
+            "button_text": "Join Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_hpXACp"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_wmdjh6": {
+      "type": "faq",
+      "blocks": {
+        "question_KAWRpF": {
+          "type": "question",
+          "settings": {
+            "title": "Who are we?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_4i8hQk": {
+          "type": "question",
+          "settings": {
+            "title": "What is an affiliate program?",
+            "answer": "<p>Golfie's affiliate program is a commission-based partnership. When someone clicks your unique link and places an order on our site, you earn a percentage of the sale.</p>"
+          }
+        },
+        "question_KQfCTt": {
+          "type": "question",
+          "settings": {
+            "title": "How does Golfie's affiliate program work?",
+            "answer": "<p>Apply to join the Golfie affiliate program by sharing a bit about your online presence. Once approved, you’ll get access to your own unique tracking links. When someone makes a qualifying purchase within 30 days of clicking your link, your commission will be recorded and ready for withdrawal.</p>"
+          }
+        },
+        "question_EGm3RN": {
+          "type": "question",
+          "settings": {
+            "title": "Who can earn commissions?",
+            "answer": "<p>The Golfie affiliate program is free to join for anyone whose online content aligns with our brand. That means customer-focused, non-spammy content. Employees, resellers, and their immediate relatives are not eligible.</p>"
+          }
+        },
+        "question_xXCdpP": {
+          "type": "question",
+          "settings": {
+            "title": "What products earn commission?",
+            "answer": "<p>Select products are available to earn commissions. Once approved, you’ll get full details on products, rates, payouts, and how to create referral links or discount codes. </p><p>Commissions are based on the cart subtotal, excluding tax and shipping.  Apply now and we’ll get you set up.</p>"
+          }
+        },
+        "question_BQ9Vma": {
+          "type": "question",
+          "settings": {
+            "title": "What happens after I apply?",
+            "answer": "<p>Once you submit your application, we will be  automatically notified. If approved, we’ll send you all the details on commissions, payouts, and tracking.</p>"
+          }
+        },
+        "question_PBpmgd": {
+          "type": "question",
+          "settings": {
+            "title": "How do I track commissions?",
+            "answer": "<p>Opt into email updates to get notified whenever your balance changes. You can also monitor real-time performance in your affiliate dashboard.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_KAWRpF",
+        "question_4i8hQk",
+        "question_KQfCTt",
+        "question_EGm3RN",
+        "question_xXCdpP",
+        "question_BQ9Vma",
+        "question_PBpmgd"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
-    "rich_text_AVhqBn",
-    "main"
+    "main",
+    "image_with_text_9t6knP",
+    "rich_text_xcEnXP",
+    "image_with_text_XJ6jqk",
+    "faq_wmdjh6"
   ]
 }
