@@ -1,0 +1,43 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_AVhqBn": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "About Us",
+        "content": "<p>Every golfer knows that feeling - the itch to play just one more round, to perfect that swing, to sink that crucial putt. But between busy schedules and unpredictable weather, finding time for the game we love isn't always easy.</p><p>That's where Golfie comes in.</p><p>Our mission is to democratize access to golf, breaking down the traditional barriers that have made it a gated, exclusive sport. We believe everyone deserves to experience the joy and beauty of golf without expensive club memberships, course fees, or weather limitations.</p><p>Founded to make golf truly accessible, we offer premium golf simulators, launch monitors, and accessories that bring the course experience right to your doorstep. Our carefully selected products help you practice and improve year-round without the constraints of traditional golf culture.</p><p>At Golfie, we're dedicated to exceptional customer service. We offer fast, free shipping on all orders, a price match guarantee, and secure checkout for a seamless shopping experience. Our team provides personalized guidance to help you find the perfect setup that matches both your goals and budget.</p><p>We partner with leading brands and equipment experts to ensure every product delivers outstanding performance and value, whether you're a seasoned player or just beginning your golf journey.</p><p>Welcome to Golfie - where we remove the barriers between you and the game you love.</p><p></p><p>Contact us at <a href=\"mailto:support@golfieshop.com\" title=\"mailto:support@golfieshop.com\">support@golfieshop.com</a> or <a href=\"tel:+1 (203) 687 4355\" title=\"tel:+1 (203) 687 4355\">+1 (203) 687 4355</a> for any inquiries or assistance.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    }
+  },
+  "order": [
+    "rich_text_AVhqBn",
+    "main"
+  ]
+}
