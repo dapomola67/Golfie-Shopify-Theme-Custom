@@ -472,6 +472,13 @@
             "link": "shopify://collections/g-trak"
           }
         },
+        "logo_LiTKrt": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Rain-or-Shine-Golf-logo_400x_4b10bc2b-820c-481a-89a4-701521b0e9d3.png",
+            "link": ""
+          }
+        },
         "logo_QYUTFB": {
           "type": "logo",
           "settings": {
@@ -515,6 +522,7 @@
         "logo_aU3DJA",
         "logo_XJmmhg",
         "logo_dXKz4T",
+        "logo_LiTKrt",
         "logo_QYUTFB",
         "logo_Y4dQcT",
         "logo_LBQ43K",
