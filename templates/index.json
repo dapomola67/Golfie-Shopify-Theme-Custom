@@ -599,17 +599,16 @@
     "1742960789326776c5": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_homepage_fM9MaC": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "judge_me_reviews_featured_carousel_ymzEdK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "sigpro-super-softy"
+            "maxwidth": 1080
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_homepage_fM9MaC"
+        "judge_me_reviews_featured_carousel_ymzEdK"
       ],
-      "disabled": true,
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": true
