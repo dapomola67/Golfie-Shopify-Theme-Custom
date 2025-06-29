@@ -88,7 +88,7 @@
           "type": "shopify://apps/trusted-tabs/blocks/tabs-block-v2/cd5da974-394e-41cb-b448-0c9a6d16a42d",
           "settings": {
             "include_description": true,
-            "custom_css": ".video-container {\n  position: relative;\n  width: 100%;\n  padding-top: 56.25%; /* 16:9 Aspect Ratio (Height / Width * 100) */\n}\n\n.video-container iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+            "custom_css": ".video-container {\n  position: relative;\n  width: 100%;\n  padding-top: 56.25%; /* 16:9 Aspect Ratio (Height / Width * 100) */\n}\n\n.video-container iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.tiny-tabs-content ol a {\n\nfont-weight: 600;\n\ntext-underline-offset: 2px;\n\ntext-decoration: underline;\n\ntransition: text-decoration-color .2s ease-in-out, color .2s ease-in-out;\n\n}\n\n\n.tiny-tabs-content ol a:hover {\n\ncolor: rgb(40, 40, 40);\n\ntext-decoration-color: rgb(40, 40, 40);\n\n-webkit-text-decoration-color: rgb(40, 40, 40);\n\n}"
           }
         }
       },
