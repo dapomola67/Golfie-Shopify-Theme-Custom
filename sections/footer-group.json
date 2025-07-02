@@ -74,6 +74,7 @@
         },
         "links_pjFfg3": {
           "type": "links",
+          "disabled": true,
           "settings": {
             "menu": "main-menu"
           }
