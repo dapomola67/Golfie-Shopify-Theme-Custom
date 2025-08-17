@@ -94,7 +94,6 @@
         },
         "newsletter": {
           "type": "newsletter",
-          "disabled": true,
           "settings": {
             "title": "join the club",
             "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
