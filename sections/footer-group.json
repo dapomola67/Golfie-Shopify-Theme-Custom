@@ -75,7 +75,7 @@
         "links_pjFfg3": {
           "type": "links",
           "settings": {
-            "menu": "main-menu"
+            "menu": "policy-links"
           }
         },
         "links": {
@@ -95,7 +95,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Join the club",
-            "content": "<p>Be the first to latest information about upcoming Golfie promotions, sales, product releases and more!</p>"
+            "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
           }
         }
       },
