@@ -109,6 +109,7 @@
         },
         "links_bebjwz": {
           "type": "links",
+          "disabled": true,
           "settings": {
             "menu": "main-menu"
           }
