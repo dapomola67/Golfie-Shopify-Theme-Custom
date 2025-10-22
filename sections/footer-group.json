@@ -69,13 +69,13 @@
           "type": "social_media",
           "settings": {
             "title": "About Us",
-            "content": "<p>Welcome to <strong>Golfie</strong> – Your Home for Premium Golf Equipment!<br/>At <strong>Golfie</strong>, operated by Mello Holdings LLC, we are passionate about providing golfers across the United States with high-quality equipment, simulators, and accessories that help you enjoy the game like never before. We believe everyone deserves to experience the joy and beauty of golf without expensive club memberships, course fees, or weather limitations. <a href=\"/pages/about-us-1\" target=\"_blank\" title=\"About Us\">See more</a></p>"
+            "content": "<p>Welcome to <strong>Golfie</strong> – Your Home for Premium Golf Equipment!<br/>At <strong>Golfie</strong>, operated by Mello Holdings LLC, we are passionate about providing golfers across the United States with high-quality equipment, simulators, and accessories that help you enjoy the game like never before. Whether you’re a beginner, an amateur, or a seasoned player, our mission is to make golf accessible, fun and rewarding. We believe everyone deserves to experience the joy and beauty of golf without expensive club memberships, course fees, or weather limitations. <a href=\"/pages/about-us-1\" target=\"_blank\" title=\"About Us\">See more</a></p>"
           }
         },
         "links_pjFfg3": {
           "type": "links",
           "settings": {
-            "menu": "main-menu"
+            "menu": "policy-links"
           }
         },
         "links": {
@@ -88,14 +88,14 @@
           "type": "text",
           "settings": {
             "title": "Get in Touch",
-            "content": "<p>Store: Golfie</p><p>Phone: <a href=\"tel:+1 203 687 4355\" target=\"_blank\" title=\"tel:+1 203 687 4355\">+1 (203) 687 4355</a><br/>Email: <a href=\"mailto:support@golfieshop.com\" target=\"_blank\" title=\"mailto:support@golfieshop.com\">support@golfieshop.com</a></p><p></p><p>Business Hours: Mon - Sat: 9:00 AM - 6:00 PM (EST)</p><p>Online chat and email are available most of the time, including weekends.</p>"
+            "content": "<p><strong>Company Name:</strong> Mello Holdings LLC</p><p><strong>Doing Business As: </strong>Golfie</p><p><strong>EIN: </strong>35-2857465</p><p><strong>D-U-N-S #: </strong>13-260-4985</p><p><strong>Email: </strong><a href=\"mailto:support@golfieshop.com\"><span style=\"text-decoration:underline\">support@golfieshop.com</span></a></p><p><strong>Phone: </strong><a href=\"tel:+1 (203) 687 4355\"><span style=\"text-decoration:underline\">+1 (203) 687 4355</span></a></p><p><strong>Business Hours:</strong> 09:00 AM - 06:00 PM (Mon - Sat), (GMT-05:00) Eastern Standard Time (New York)</p><p>Online chat and email are available most of the time, including weekends.</p>"
           }
         },
         "newsletter": {
           "type": "newsletter",
           "settings": {
             "title": "Join the club",
-            "content": "<p>Be the first to latest information about upcoming Golfie promotions, sales, product releases and more!</p>"
+            "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
           }
         }
       },
