@@ -95,8 +95,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "join the club",
-            "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
+            "title": "About Us",
+            "content": "<p>Welcome to Golfie – Your Home for Premium Golf Equipment! At Golfie, operated by Mello Holdings LLC, we are passionate about providing golfers across the United States with high-quality equipment, simulators, and accessories that help you enjoy the game like never before. Whether you’re a beginner, an amateur, or a seasoned player, our mission is to make golf accessible, fun and rewarding. See more</p><h3><strong>Join the club</strong></h3><p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
           }
         }
       },
