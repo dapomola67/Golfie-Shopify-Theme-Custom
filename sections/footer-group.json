@@ -107,11 +107,10 @@
             "content": "<p><strong>Company Name:</strong> Mello Holdings LLC</p><p><strong>Doing Business As: </strong>Golfie</p><p><strong>EIN: </strong>35-2857465</p><p><strong>D-U-N-S #: </strong>13-260-4985</p><p><strong>Email: </strong><a href=\"mailto:support@golfieshop.com\"><span style=\"text-decoration:underline\">support@golfieshop.com</span></a></p><p><strong>Phone: </strong><a href=\"tel:+1 (203) 687 4355\"><span style=\"text-decoration:underline\">+1 (203) 687 4355</span></a></p><p><strong>Business Hours:</strong> 09:00 AM - 06:00 PM (Mon - Sat), (GMT-05:00) Eastern Standard Time (New York)</p>"
           }
         },
-        "newsletter": {
-          "type": "newsletter",
+        "links_bebjwz": {
+          "type": "links",
           "settings": {
-            "title": "Join the club",
-            "content": "<p>Be the first to learn about upcoming Golfie promotions, sales, product releases and more!</p>"
+            "menu": "main-menu"
           }
         }
       },
@@ -120,7 +119,7 @@
         "links",
         "links_pjFfg3",
         "text_Ai6MiY",
-        "newsletter"
+        "links_bebjwz"
       ],
       "settings": {
         "show_payment_icons": true,
