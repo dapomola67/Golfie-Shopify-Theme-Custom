@@ -62,22 +62,6 @@
         "text_color": "#ffffff"
       }
     },
-    "newsletter_6z6kre": {
-      "type": "newsletter",
-      "name": "Newsletter",
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify://shop_images/Logo-Color.png",
-        "subheading": "Subscribe to our newsletter",
-        "content": "<p>Be the first to learn about our upcoming Golfie promotions, sales, product releases and more!</p>",
-        "text_position": "center",
-        "text_alignment": "center",
-        "text_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -132,7 +116,6 @@
   },
   "order": [
     "text-with-icons",
-    "newsletter_6z6kre",
     "footer"
   ]
 }
