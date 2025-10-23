@@ -542,6 +542,22 @@
         "logo_background": "rgba(0,0,0,0)"
       }
     },
+    "newsletter_NakVEf": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify://shop_images/The_Indoor_Golf_Shop_-_SIGPRO_Golf_Mat7-Golfieshop.jpg",
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Be the first to learn about our upcoming Golfie promotions, sales, product releases and more!</p>",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq_wRcGRC": {
       "type": "faq",
       "blocks": {
@@ -610,26 +626,9 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_TjPCpn"
       ],
-      "disabled": true,
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": true
-      }
-    },
-    "newsletter_NakVEf": {
-      "type": "newsletter",
-      "name": "Newsletter",
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify://shop_images/golf-bag-with-clubs-at-golf-course.jpg",
-        "subheading": "Subscribe to our newsletter",
-        "content": "<p>Be the first to learn about our upcoming Golfie promotions, sales, product releases and more!</p>",
-        "text_position": "center",
-        "text_alignment": "center",
-        "text_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -643,8 +642,8 @@
     "image-with-text-block",
     "multi_column_aGKbxf",
     "logo_list_RU6qa6",
+    "newsletter_NakVEf",
     "faq_wRcGRC",
-    "1742960789326776c5",
-    "newsletter_NakVEf"
+    "1742960789326776c5"
   ]
 }
