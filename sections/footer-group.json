@@ -46,7 +46,7 @@
           "settings": {
             "icon": "picto-lock",
             "custom_icon_width": 50,
-            "title": "Secure payment",
+            "title": "Safe and Secure payment",
             "content": "<p><a href=\"/pages/payments-policy\" target=\"_blank\" title=\"Payments Policy\">Encrypted SSL connection to ensure that your credit card information is 100% safe.</a></p>"
           }
         }
