@@ -588,6 +588,7 @@
         "question_eTqUxy",
         "question_m7i94x"
       ],
+      "disabled": true,
       "settings": {
         "show_navigation": false,
         "title": "FAQs",
