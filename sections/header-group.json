@@ -16,6 +16,7 @@
       "blocks": {
         "message_R6nx7G": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Fast & Free Shipping (Exclusions Apply)",
             "learn_more_text": "",
