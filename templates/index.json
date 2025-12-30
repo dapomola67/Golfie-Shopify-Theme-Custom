@@ -14,7 +14,6 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "medium",
-        "image": "shopify://shop_images/Golfie-Shop-Simboothkit_Hero_image-2.png",
         "subheading": "",
         "title": "Play world-class golf from the comfort of your home.",
         "content": "<p>Improve your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
@@ -23,7 +22,7 @@
         "link_style": "button",
         "background_type": "full_width",
         "text_width": "medium",
-        "text_position": "middle_right",
+        "text_position": "middle_center",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -248,7 +247,6 @@
         "item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/golf-bag-with-clubs-at-golf-course.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "About Us",
@@ -279,7 +277,6 @@
       "type": "image-with-text-block",
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify://shop_images/golf-bag-with-clubs-at-golf-course.jpg",
         "subheading": "",
         "title": "About Us",
         "content": "<p>We're dedicated to helping golfers play more, regardless of time constraints or weather. That's why we offer top-quality golf simulators, projectors, and enclosures from leading brands. Our goal is to make it easier for you to practice, improve, and enjoy the game you love, right from the comfort of your own space. </p>",
@@ -300,7 +297,6 @@
         "item_cyGX3B": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Carl_s_Place_Curved_Golf_Simulator_Enclosure_Kit_with_Impact_Screen_-_Golfieshop.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Impact Zone",
@@ -315,7 +311,6 @@
         "item_aphN3F": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Carl_s_Place_HotShot_Golf_Hitting_Mat-Golfieshop.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Strike Zone",
@@ -330,7 +325,6 @@
         "item_wrAtKd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Uneekor_EYE_XO_Launch_Monitor-golfieshop-4.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Feedback Zone",
@@ -345,7 +339,6 @@
         "item_69WMDy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/BenQ-AK700ST-4000-Lumen-4K-Short-Throw-Laser-Projector-for-Golf-Simulators-Golfieshop-9.webp",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Visual Zone",
@@ -384,126 +377,108 @@
         "logo_hhGDhJ": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Uneekor-logo_200x_4c56a076-aabb-49a2-a23c-31467d5f31d1.png",
             "link": "shopify://collections/uneekor"
           }
         },
         "logo_tgW6H3": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/TruGolf-Logo-Color_200x_d671085c-70a7-4fef-a007-01eb5e183fe5.png",
             "link": "shopify://collections/trugolf"
           }
         },
         "logo_HDdcXY": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/SkyTrak-logo-large_200x_8351dc16-0fd7-40b8-aa4b-48bce5e1dc4d.png",
             "link": "shopify://collections/skytrak-golf-simulators"
           }
         },
         "logo_jJBpwp": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/full_swing.png",
             "link": "shopify://collections/full-swing"
           }
         },
         "logo_CYVrHb": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Rapsodo_logo.png",
             "link": "shopify://collections/rapsodo"
           }
         },
         "logo_qXwhA4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/simbooth_logo.png",
             "link": "shopify://collections/simbooth"
           }
         },
         "logo_m8CWfc": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Red_Stakes_Golf_-_Text_-_Color_redandblack.png",
             "link": "shopify://collections/rsg-optishot-launch-monitors"
           }
         },
         "logo_qWhYMA": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/ACCUGOLF_Logo.png",
             "link": "shopify://products/accugolf-hawkeye-launch-monitor"
           }
         },
         "logo_8NtanN": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Carl_s-Place-Logo.png",
             "link": "shopify://collections/carls-place"
           }
         },
         "logo_4gDVGp": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/The_indoor_golf_shop_logo..png",
             "link": "shopify://collections/the-indoor-golf-shop"
           }
         },
         "logo_aU3DJA": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/The_Net_Return.png",
             "link": "shopify://collections/the-net-return"
           }
         },
         "logo_XJmmhg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/The-SportScreen_200x_a1f45957-613f-4455-8b14-3656ab67578e.png",
             "link": "shopify://collections/the-sportscreen-enclosures"
           }
         },
         "logo_dXKz4T": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/G-Trak_Logo.png",
             "link": "shopify://collections/g-trak"
           }
         },
         "logo_LiTKrt": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Rain-or-Shine-Golf-logo_400x_4b10bc2b-820c-481a-89a4-701521b0e9d3.png",
             "link": ""
           }
         },
         "logo_QYUTFB": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Spornia_Logo.webp",
             "link": "shopify://collections/spornia"
           }
         },
         "logo_Y4dQcT": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/BenQ_Logo.png",
             "link": "shopify://collections/benq-golf-simulator-projectors"
           }
         },
         "logo_LBQ43K": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/LG_logo-home.png",
             "link": "shopify://products/lg-probeam-bu53rg-5000-lumen-laser-4k-uhd-projector"
           }
         },
         "logo_RHEqDa": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/ods-logo_2x_png.jpg",
             "link": "shopify://collections/on-deck-sports"
           }
         }
@@ -547,7 +522,6 @@
       "name": "Newsletter",
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify://shop_images/The_Indoor_Golf_Shop_-_SIGPRO_Golf_Mat7-Golfieshop.jpg",
         "subheading": "Subscribe to our newsletter",
         "content": "<p>Be the first to learn about our upcoming Golfie promotions, sales, product releases and more!</p>",
         "text_position": "center",
@@ -615,17 +589,6 @@
     },
     "1742960789326776c5": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_TjPCpn": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_TjPCpn"
-      ],
       "disabled": true,
       "settings": {
         "include_horizontal_margins": true,
