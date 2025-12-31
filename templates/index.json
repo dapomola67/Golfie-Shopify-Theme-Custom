@@ -359,6 +359,7 @@
         "item_wrAtKd",
         "item_69WMDy"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
@@ -375,6 +376,7 @@
     },
     "newsletter_NakVEf": {
       "type": "newsletter",
+      "disabled": true,
       "name": "Newsletter",
       "settings": {
         "reveal_on_scroll": true,
