@@ -14,6 +14,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "medium",
+        "image": "shopify://shop_images/Golfie-Uneekor-EYE-XR-Launch-Monitor-person-interacting-with-shot-analysis-software_2000x_b88b8a8b-e535-434e-bbb4-809863049b8f.png",
         "subheading": "",
         "title": "Play world-class golf from the comfort of your home.",
         "content": "<p>Improve your golf game with cutting-edge simulators and launch monitors. Experience pro-level training from the comfort of your home.</p>",
@@ -22,7 +23,7 @@
         "link_style": "button",
         "background_type": "full_width",
         "text_width": "medium",
-        "text_position": "middle_center",
+        "text_position": "middle_right",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
@@ -277,6 +278,7 @@
       "type": "image-with-text-block",
       "settings": {
         "reveal_on_scroll": true,
+        "image": "shopify://shop_images/Golfie-About-Hero-Image.jpg",
         "subheading": "",
         "title": "About Us",
         "content": "<p>We're dedicated to helping golfers play more, regardless of time constraints or weather. That's why we offer top-quality golf simulators, projectors, and enclosures from leading brands. Our goal is to make it easier for you to practice, improve, and enjoy the game you love, right from the comfort of your own space. </p>",
