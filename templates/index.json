@@ -291,6 +291,101 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "multi_column_aGKbxf": {
+      "type": "multi-column",
+      "blocks": {
+        "item_cyGX3B": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Impact Zone",
+            "content": "<p>Protect your space and swing confidently. A premium enclosure forms the core of your setup.</p>",
+            "link_text": "Shop Enclosures",
+            "link_url": "shopify://collections/enclosures",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_aphN3F": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Strike Zone",
+            "content": "<p>Train like you're on the course. High-performance mats deliver turf realism and durability.</p>",
+            "link_text": "Shop Hitting Mats",
+            "link_url": "shopify://collections/mats",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_wrAtKd": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Feedback Zone",
+            "content": "<p>Track every shot with precision. Launch monitors capture ball and club data to help you improve.</p>",
+            "link_text": "Shop Launch Monitors",
+            "link_url": "shopify://collections/golf-launch-monitors",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_69WMDy": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Visual Zone",
+            "content": "<p>Bring the course to life. A high-lumen projector delivers crystal-clear visuals and ball flight.</p>",
+            "link_text": "Shop Projectors",
+            "link_url": "shopify://collections/projectors",
+            "link_style": "link",
+            "text_alignment": "left",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_cyGX3B",
+        "item_aphN3F",
+        "item_wrAtKd",
+        "item_69WMDy"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Core Components. Pro Performance.",
+        "content": "<p>Design a complete indoor golf setup with just four key components. Whether you’re building a pro-level simulator or a sleek home setup, these essentials bring your golf space to life.</p>",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "loose",
+        "background": "#f7f7f7",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter_NakVEf": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Be the first to learn about our upcoming Golfie promotions, sales, product releases and more!</p>",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq_wRcGRC": {
       "type": "faq",
       "blocks": {
@@ -363,6 +458,8 @@
     "featured-product",
     "image-with-text",
     "image-with-text-block",
+    "multi_column_aGKbxf",
+    "newsletter_NakVEf",
     "faq_wRcGRC",
     "1742960789326776c5"
   ]
