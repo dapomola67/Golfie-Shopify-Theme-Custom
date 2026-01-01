@@ -127,9 +127,11 @@
           "settings": {
             "menu_item": "Launch Monitors",
             "images_position": "right",
+            "image_1": "shopify://shop_images/Full-Swing-KIT-Launch-Monitor-Golfieshop-4.webp",
             "image_1_heading": "Full Swing KIT Launch Monitor",
             "image_1_text": "",
             "image_1_link": "shopify://products/full-swing-kit-launch-monitor",
+            "image_2": "shopify://shop_images/Uneekor-EYE-MINI-Launch-Monitor-golfieshop-7.jpg",
             "image_2_heading": "Uneekor Eye Mini Launch Monitor",
             "image_2_text": "",
             "image_2_link": "",
